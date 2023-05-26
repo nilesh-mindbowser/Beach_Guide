@@ -1,0 +1,344 @@
+﻿<style>
+
+    .footer-bar {
+        width: 1440px;
+        height: 431px;
+        background: #031A3A;
+        margin-top:20px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 7;
+        flex-grow: 0;
+    }
+
+    .footer-logo {
+        width: 231px;
+        height: 54px;
+        background: url(image.png);
+        /* Inside auto layout */
+        margin-left: 110px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .footer-content
+    {
+        width: 318px;
+        height: 170px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #959595;
+        padding-right: 73px;
+        margin-top: 20px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .footer-link-div
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 48px;
+        width: 531px;
+        height: 159px;
+        margin-left:73px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .link-div1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 114px;
+        height: 159px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .link-div2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 172px;
+        height: 124px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .link-div3
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 149px;
+        height: 89px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+    .footer-sociallink
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px;
+        width: 224px;
+        height: 72px;
+        margin-left: 180px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .Footer.row.bar
+    {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 110px;
+        gap: 10px;
+        position: absolute;
+        width: 1440px;
+        height: 64px;
+        left: 0px;
+        top: 366px;
+        background: #FFFFFF;
+    }
+
+    .row{
+        padding-top:40px;
+    }
+
+    .logo-img
+    {
+        width: 205.12px;
+        height: 233.22px;
+        left: 1184.56px;
+        background: url(image.png);
+        /*transform: rotate(1.084deg);*/
+    }
+    h6{
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-bottom:20px;
+    }
+
+    .fas fa-call {
+        width: 131px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    li
+    {
+        margin-bottom:16px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #B9B9B9;
+    }
+
+    .footer-ul-list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 114px;
+        height: 159px;
+        margin-left: 73px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .footer-ul-list1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 172px;
+        height: 124px;
+        margin-left: 48px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .footer-ul-list2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 155px;
+        height: 89px;
+        margin-left: 73px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .copyBox{
+        background: #FFFFFF;
+        border: 1px solid #064F9C;
+        border-radius: 5px;
+        width: 150px;
+        height: 24px;
+    }
+</style>
+
+
+
+<footer class="footer-bar">
+    <div class="container.footer">
+        <div class="row">
+            <div class="footer-logo">
+                <img src="\Images\footerlogo.svg" alt="">
+                <div>
+                    <p class="footer-content">
+                        Find beachfront vacation rentals along the beautiful white-sand beaches of the Alabama and Florida Gulf Coast.
+                        Choose from condo rentals, cottages, vacation homes and hotels. Learn more about things to do in our beach destinations, and find information on dining, shopping, golf, fishing and attractions. Also be sure to join us on Facebook and Pinterest,
+                        and join our email list to make sure you always get the latest news about events and special deals.
+                    </p>
+                    <p style="padding-top:21px">
+                        <img src="\Images\Phone.svg" alt="" width="30" height="30" >
+                        <i class="fas fa-call" style="color:white;padding-left: 10px;">888-404-2602</i>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="footer-link-div">
+                <div class="link-div1">
+                    <ul class="footer-ul-list">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li><a href="#">Feedback</a></li>
+                        <li><a href="#">Select a Beach</a></li>
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">Beach Buzz</a></li>
+                    </ul>
+                </div>
+
+                <div class="link-div2">
+                    <ul class="footer-ul-list1">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact BeachGuide</a></li>
+                        <li><a href="#">BeachGuide Magazine</a></li>
+                        <li><a href="#">Online Magazine</a></li>
+                    </ul>
+                </div>
+
+                <div class="link-div3">
+                    <ul class="footer-ul-list2">
+                        <li><a href="#">Resort Admin</a></li>
+                        <li><a href="#">Terms and Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+          <div class="footer-sociallink">
+                <h6><b>Connect with BeachGuide</b></h6>
+                <div>
+                   
+                    <a href="#">
+                        <img src="\Images\facebooklogo.svg" alt="" width="30" height="30" style="order: 0;border-radius: 8px;">
+                    </a>
+                   <a href="#">
+                        <img src="\Images\twitterlogo.svg" alt="" width="30" height="30" style="order: 1;border-radius: 8px;">
+                   </a>
+                   <a href="#">
+                        <img src="\Images\ptaglogo.svg" alt="" width="30" height="30" style="order:2;border-radius: 8px;">
+                   </a>
+                </div>
+                <div>
+                    <img src="\Images\image 37.png" alt="" class="logo-img">
+                </div>
+          </div>
+        </div>
+
+        <div class="Footer.row.bar">
+            <div class="footer.row" style="background-color:white; padding:5px; margin-top: 200px;text-align:justify">
+                <p style="color:black; padding-left: 50px; margin-top: 10px;">
+                    &copy; 2023 My Beach Company. <b>All Rights Reserved</b> &nbsp;&nbsp;&nbsp;
+                    &nbsp; <input type="text" class="copyBox" placeholder="&copy; PROTECTED BY COPYSCAPE" readonly>
+                    &nbsp; <span><b>Use of this website constitutes acceptance of the BeachGuide.com</b></span>
+                </p>
+            </div>
+        </div>
+    </div>
+   
+</footer>
+
+
+
+
+

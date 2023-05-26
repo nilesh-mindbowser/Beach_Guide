@@ -1,0 +1,313 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\obj\\Debug\\net6.0\\build-gz\\+2izDLzG.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BEACHGUIDE-.Client.styles.css",
+      "PackagePath": "staticwebassets\\BEACHGUIDE-.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaFrame1.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaFrame1.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaFrame2.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaFrame2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaFrame3.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaFrame3.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaFrame4.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaFrame4.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaFrame5.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaFrame5.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaFrame6.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaFrame6.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\AreaPropertyDetails\\Area-PropertyDetailsImg.svg",
+      "PackagePath": "staticwebassets\\Images\\AreaPropertyDetails\\Area-PropertyDetailsImg.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Beach guide.svg",
+      "PackagePath": "staticwebassets\\Images\\Beach guide.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Gulf-relatedstories.svg",
+      "PackagePath": "staticwebassets\\Images\\Gulf-relatedstories.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Gulf-relatedstories2.svg",
+      "PackagePath": "staticwebassets\\Images\\Gulf-relatedstories2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Gulf-relatedstories3.svg",
+      "PackagePath": "staticwebassets\\Images\\Gulf-relatedstories3.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresCard.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresCard.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresCard2.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresCard2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresCard3.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresCard3.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresCard4.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresCard4.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresCard5.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresCard5.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresCard6.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresCard6.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\GulfShoresGallery.svg",
+      "PackagePath": "staticwebassets\\Images\\GulfShoresGallery.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Heartlogo.svg",
+      "PackagePath": "staticwebassets\\Images\\Heartlogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Phone.svg",
+      "PackagePath": "staticwebassets\\Images\\Phone.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\RentalUnitAvailable.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnitAvailable.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Searchlogo2.svg",
+      "PackagePath": "staticwebassets\\Images\\Searchlogo2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Serch.svg",
+      "PackagePath": "staticwebassets\\Images\\Serch.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Serchbar2.svg",
+      "PackagePath": "staticwebassets\\Images\\Serchbar2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Vector.svg",
+      "PackagePath": "staticwebassets\\Images\\Vector.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Vector1.svg",
+      "PackagePath": "staticwebassets\\Images\\Vector1.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Vector2.svg",
+      "PackagePath": "staticwebassets\\Images\\Vector2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\Vector3.svg",
+      "PackagePath": "staticwebassets\\Images\\Vector3.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card1.svg",
+      "PackagePath": "staticwebassets\\Images\\card1.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card2.svg",
+      "PackagePath": "staticwebassets\\Images\\card2.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card3.svg",
+      "PackagePath": "staticwebassets\\Images\\card3.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card4.svg",
+      "PackagePath": "staticwebassets\\Images\\card4.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card5.svg",
+      "PackagePath": "staticwebassets\\Images\\card5.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card6.svg",
+      "PackagePath": "staticwebassets\\Images\\card6.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card7.svg",
+      "PackagePath": "staticwebassets\\Images\\card7.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card8.svg",
+      "PackagePath": "staticwebassets\\Images\\card8.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\card9.svg",
+      "PackagePath": "staticwebassets\\Images\\card9.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\facebooklogo.svg",
+      "PackagePath": "staticwebassets\\Images\\facebooklogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\footerlogo.svg",
+      "PackagePath": "staticwebassets\\Images\\footerlogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image 3.svg",
+      "PackagePath": "staticwebassets\\Images\\image 3.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image 37.png",
+      "PackagePath": "staticwebassets\\Images\\image 37.png"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image 4.svg",
+      "PackagePath": "staticwebassets\\Images\\image 4.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image 5.svg",
+      "PackagePath": "staticwebassets\\Images\\image 5.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image10.svg",
+      "PackagePath": "staticwebassets\\Images\\image10.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image11.svg",
+      "PackagePath": "staticwebassets\\Images\\image11.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image12.svg",
+      "PackagePath": "staticwebassets\\Images\\image12.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image13.svg",
+      "PackagePath": "staticwebassets\\Images\\image13.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image14.svg",
+      "PackagePath": "staticwebassets\\Images\\image14.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image6.svg",
+      "PackagePath": "staticwebassets\\Images\\image6.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image7.svg",
+      "PackagePath": "staticwebassets\\Images\\image7.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image8.svg",
+      "PackagePath": "staticwebassets\\Images\\image8.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\image9.svg",
+      "PackagePath": "staticwebassets\\Images\\image9.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\pp.png",
+      "PackagePath": "staticwebassets\\Images\\pp.png"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\ptaglogo.svg",
+      "PackagePath": "staticwebassets\\Images\\ptaglogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\Images\\twitterlogo.svg",
+      "PackagePath": "staticwebassets\\Images\\twitterlogo.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\prajakta.chavan\\source\\repos\\BEACHGUIDE-\\BEACHGUIDE-\\Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BEACHGUIDE-.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BEACHGUIDE-.Client.props",
+      "PackagePath": "build\\BEACHGUIDE-.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BEACHGUIDE-.Client.props",
+      "PackagePath": "buildMultiTargeting\\BEACHGUIDE-.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BEACHGUIDE-.Client.props",
+      "PackagePath": "buildTransitive\\BEACHGUIDE-.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
