@@ -1,0 +1,740 @@
+﻿@page "/areaprop"
+
+<style>
+    .beach-guide {
+        height: 241px;
+        background-image: url("./Images/pp.png");
+        /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("pp.png");*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Inside auto layout */
+        display: flex;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 49px;
+        margin-left: 74px;
+    }
+
+    .beach-guide-heading {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        height: 42px;
+        /* Inside auto layout */
+        order: 0;
+        flex-grow: 0;
+        color: white;
+    }
+
+    .gulf-Shores-title {
+        height: 42px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-options {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row;*/
+        align-items: center;
+        padding: 0px;
+        height: 62px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn1,
+    .beach-guide-btn2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 29px 30px;
+        gap: 10px;
+        height: 59px;
+        background: #FFFFFF;
+        border-right: 1px solid #9D9D9D;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn7 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 14px;
+        gap: 10px;
+        width: 72px;
+        height: 59px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 6;
+        flex-grow: 0;
+    }
+
+    .search-area {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        padding: 9px;
+        gap: 10px;
+        width: 40px;
+        height: 40px;
+        /* Icon Colour */
+
+        background: rgba(254, 171, 24, 0.8);
+        /* White */
+
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 0px 4px #FF8807;
+        border-radius: 100px;
+    }
+
+    .navslides-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 0px 0px 68px;
+        background: #FFFFFF;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .navslides-box1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .properties-nav {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 25px 0px 19px;
+        gap: 10px;
+        isolation: isolate;
+        height: 60px;
+        background: linear-gradient(176.06deg, #7CBBD9 3.22%, #469DC9 96.78%);
+        border: 1px solid #4199C7;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .btn-prop-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        /* blue linear */
+        color: #FFFFFF;
+        flex: none;
+        order: 7;
+        flex-grow: 0;
+    }
+
+    .shores-heading {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px 69px;
+        gap: 10px;
+        height: 80px;
+        text-decoration: none;
+        background: #FFFFFF;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .navbar-brand {
+        width: 293px;
+        height: 68px;
+        margin-bottom: 20px;
+        background: url(image.png);
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .container-fluid {
+        display: flex;
+        gap: 10px;
+    }
+
+    .navbar-btn {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 64px;
+        width: 500px;
+        height: 54px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .navbar-brand-btn {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 10px;
+        gap: 10px;
+        width: 147px;
+        height: 54px;
+        background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+        border: 1px solid #4199C7;
+    }
+
+    .btn-prop {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        /* identical to box height */
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+    }
+
+    .telephone {
+        margin-left: 90px;
+    }
+
+    .frame-row {
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 7px 0px 25px 0px;
+        gap: 27px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .card {
+        flex: 0 0 calc(33.33% - 20px);
+        background-color: #f2f2f2;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .fluid-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .rentalUnit {
+        padding: 24px 0px 12px 12px;
+        display: flex;
+        gap: 14px;
+    }
+
+    available-text {
+        width: 298px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 40px;
+        /* identical to box height */
+
+
+        color: #000000;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .card-text {
+        width: 325px;
+        height: 55px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4E4E4E;
+        margin-top: 20px;
+        padding: 0px 0px 0px 10px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .card-text-heading {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+
+
+        color: #000000;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+     .available-text
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 44px;
+        color: #000000;
+    }
+
+    .gulf-title
+    {
+        /*width: 1001px;*/
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #489FCA;
+    }
+
+    .gulf-inform
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FF8807;
+    }
+
+    .gulf-hedding3 
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 0px 8px 65px;
+    }
+
+    .gulf-hedding {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 69px;
+        background: #FFFFFF;
+        justify-content: center;
+    }
+    .sort-box
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 27px 69px;
+        gap: 10px;
+        background: #FFFFFF;
+        justify-content: center;
+    }
+
+    .sort-option-box
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        height: 44px;
+    }
+
+    .pagination-box
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        margin-left: 267px;
+        color: #6A6A6A;
+    }
+
+    .gulf-heading3
+    {
+        display: flex;
+    }
+    
+        </style>
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="\Images\image 3.svg" alt="" width="293" height="68">
+        </a>
+        <div class="telephone">
+            <a>
+                <img src="\Images\Phone.svg" alt="" width="20" height="20">
+                888-404-2602
+            </a>
+        </div>
+        <div class="d-flex">
+            <div class="navbar-brand-btn">
+                <a class="btn-prop" href="">Select a beach</a>
+            </div>
+            <div class="navbar-brand-btn">
+                <a class="btn-prop">Beach a Buzz</a>
+            </div>
+            <div class="navbar-brand-btn">
+                <a class="btn-prop">Wishlist</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="beach-guide">
+    <div class="beach-guide-box">
+        <div class="beach-guide-heading">
+            <h3 class="gulf-Shores-title">Gulf Shores, Alabama</h3>
+        </div>
+        <div class="beach-guide-options">
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Area</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn2">
+                <div class="area">
+                    <label class="beach-guide-label">Property</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Rental Unit</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Check In</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Check Out</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Guest</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn7">
+                <div class="search-area">
+                    <div class="serch-area">
+                        <img src="\Images\Searchlogo2.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="navslides-box">
+    <div class="navslides-box1">
+        <div class="properties-nav">
+            <a class="btn-prop" href="">Properties</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop" style="width: 104px;">Rental Units</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop" style="width: 99px;">Informations</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Restaurants</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Golf</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Fishing</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Events</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop-8">Other Things To Do</a>
+        </div>
+    </div>
+</div>
+<div class="shores-heading">
+    <div class="shores-link">
+        <a href="" style="color:#459DC9 ">Home&gt;</a>&nbsp;Gulf Shores Alabama Vacation Properties
+    </div>
+</div>
+
+
+<div class="gulf-hedding">
+    <div class="gulf-heading2">
+        <div class="gulf-heading3">
+            <h1 class="gulf-title">Gulf Shores, Alabama</h1>
+            <div>
+                <a class="gulf-inform">More Information</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sort-box">
+    <div class="sort-option-box">
+        <label class="flex: none;order: 0;flex-grow: 0">Sort By:</label>
+        <select class="option-box">
+            <option value="">Property Name(A-Z)</option>
+        </select>
+        <div class="pagination-box">
+            <label class="flex: none;order: 0;flex-grow: 0 ; f">Search has returned 100 results.:</label>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-body">
+    <div class="frame-row">
+        <div class="card">
+            <div>
+                    <div>
+                        <img class="fluid-image" src="\Images\AreaFrame1.svg" alt="Image">
+                    </div>
+               
+                    <div class="card-text">
+                        <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    </div>
+                    <div class="rentalUnit">
+                        <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                        <a href="#">
+                            <p class="available-text">6 Rental Units are available</p>
+                        </a>
+                    </div>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image" src="\Images\AreaFrame2.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image" src="\Images\AreaFrame3.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="frame-row">
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image"  src="\Images\AreaFrame4.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image"  src="\Images\AreaFrame6.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image"  src="\Images\image6.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="frame-row">
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+                <div class="card-text">
+                    <p class="card-text-heading">Alerio Condos Miramar Beach </p>
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="rentalUnit">
+                    <img src="\Images\RentalUnitAvailable.svg" alt="Image Description" style="margin-top: 30px;">
+                    <a href="#">
+                        <p class="available-text">6 Rental Units are available</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<Footer />

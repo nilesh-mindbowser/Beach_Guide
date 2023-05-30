@@ -1,0 +1,70 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BEACHGUIDE-</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="rental">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Rental Unit
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="homePageRes">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> HomePage
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="areaprop">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Area Property
+            </NavLink>
+        </div>
+
+       @* <div class="nav-item px-3">
+            <NavLink class="nav-link" href="areaproperty">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Area Property
+            </NavLink>
+        </div>*@
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="areaInformation">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Area Information
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="areainfoRes">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Area InformationRes
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="areaPropertyDetails">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Area Property Details
+            </NavLink>
+        </div>
+      
+       @* <div class="nav-item px-3">
+            <NavLink class="nav-link" href="FooterResp">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> FooterResponsive
+            </NavLink>
+        </div>*@
+      
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

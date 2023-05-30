@@ -1,0 +1,1250 @@
+﻿@page "/areaInformation"
+
+
+<style>
+
+    .navbar navbar-light bg-light {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 110px;
+        gap: 10px;
+        width: 1440px;
+        height: 108px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .navbar-brand {
+        width: 293px;
+        height: 68px;
+        margin-bottom: 20px;
+        background: url(image.png);
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .navbar-btn {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 64px;
+        width: 500px;
+        height: 54px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .nav-phone {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 20px;
+        width: 172px;
+        height: 24px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    btn-frame2 {
+        box-sizing: border-box;
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 10px;
+        gap: 10px;
+        width: 120px;
+        height: 54px;
+        background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+        border: 1px solid #4199C7;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .btn-frame3 {
+        box-sizing: border-box;
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 10px;
+        gap: 10px;
+        width: 86px;
+        height: 54px;
+        background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+        border: 1px solid #4199C7;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .btn-text1 {
+        width: 127px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .btn-text2 {
+        width: 100px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .btn-text3 {
+        width: 66px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .navbar-brand-btn {
+        box-sizing: border-box;
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 10px;
+        gap: 10px;
+        width: 147px;
+        height: 54px;
+        background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+        border: 1px solid #4199C7;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .btn-prop {
+        width: 90px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        /* identical to box height */
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+    }
+    /*Beach-GuideBoox*/
+
+    .beach-guide {
+        height: 241px;
+        background-image: url("./Images/pp.png");
+        /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("pp.png");*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Inside auto layout */
+        display: flex;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 11px 0px 0px 58px;
+        position: absolute;
+        /* left: 74px; */
+        margin-top: 49px;
+    }
+
+    .beach-guide-heading {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        height: 42px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        height: 62px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        width: 220px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Grey 2 */
+
+        border-right: 1px solid #9D9D9D;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label2 {
+        width: 144px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* Black */
+
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label {
+        width: 27px;
+        height: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #FF8807;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label2 {
+        width: 144px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* Black */
+
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .area {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 5px;
+        width: 144px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        width: 220px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Grey 2 */
+
+        border-right: 1px solid #9D9D9D;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        width: 220px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Grey 2 */
+
+        border-right: 1px solid #9D9D9D;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        width: 170px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 3;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn5 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        width: 170px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Grey 2 */
+
+        border-right: 1px solid #9D9D9D;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn6 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        width: 220px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 5;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn7 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 14px;
+        gap: 10px;
+        width: 72px;
+        height: 62px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 6;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .search-area {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 10px;
+        width: 44px;
+        height: 44px;
+        /* Icon Colour */
+
+        background: rgba(254, 171, 24, 0.8);
+        /* White */
+
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 0px 4px #FF8807;
+        border-radius: 100px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label {
+        width: 27px;
+        height: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #FF8807;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label2 {
+        width: 144px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        /* Black */
+
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+   /* a************************************NavslideBox*************/
+
+    .navslides-box {
+        /* Auto layout */
+       /* display: flex;
+        flex-direction: column;
+        align-items: flex-start;*/
+        padding: 30px 0px 0px 0px;
+      
+       /* height: 120px;*/
+        /* White */
+
+        background: #FFFFFF;
+        /* Inside auto layout */
+    }
+
+    .navslides-box1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .properties-nav {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 25px 0px 19px;
+        gap: 10px;
+        isolation: isolate;
+        height: 60px;
+        background: linear-gradient(176.06deg, #7CBBD9 3.22%, #469DC9 96.78%);
+        border: 1px solid #4199C7;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .btn-prop {
+        width: 90px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        /* identical to box height */
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+    }
+
+    .btn-prop-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 19px 10px;
+        gap: 10px;
+        isolation: isolate;
+       
+        height: 60px;
+        text-decoration: none;
+        /* blue linear */
+        color: #FFFFFF;
+        background: linear-gradient(176.06deg, #7CBBD9 3.22%, #469DC9 96.78%);
+      
+    }
+
+
+    /* shoresHeading*/
+
+    .shores-heading {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 25px 56px;
+        gap: 10px;
+        height: 42px;
+        text-decoration: none;
+        background: #FFFFFF;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .shores-link {
+        width: 405px;
+        height: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #626262;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .descriptionBox
+    {
+        padding: 39px 69px;
+       
+        height: 694px;
+        background: #FFFFFF;
+    }
+
+    .description-heading
+    {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 389px;
+        width: 1220px;
+        height: 50px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gulf-heading
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 980px;
+        height: 50px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .Gulf-para
+    {
+        width: 1220px;
+        height: 504px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.02%;
+        /* or 24px */
+
+
+        color: #000000;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .gulf-shores-img
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 110px;
+        gap: 40px;
+        width: 1440px;
+        height: 1306px;
+        margin-top: 40px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 5;
+        flex-grow: 0;
+    }
+    .gulf-shores-heading
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 389px;
+        width: 1220px;
+        height: 44px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gulf-image-Row
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        width: 1220px;
+        height: 536px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .row-img
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 380px;
+        height: 536px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+
+      .row-img2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        width: 380px;
+        height: 536px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .gulf-image-discription{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 10px;
+        width: 380px;
+        height: 169px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+     .gulf-image-discription-heading
+     {
+            width: 380px;
+            height: 29px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            /* identical to box height */
+
+            color: #000000;
+            /* Inside auto layout */
+
+            flex: none;
+            order: 0;
+            align-self: stretch;
+            flex-grow: 0;
+     }
+     .gulf-shores-gallery
+     {
+       /* display: flex;*/
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 110px;
+        gap: 40px;
+        width: 1440px;
+        height: 690px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 6;
+        flex-grow: 0;
+     }
+     .gulf-gallery-heading
+     {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 389px;
+        width: 1220px;
+        height: 50px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+     }
+     .heading-boarder
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 980px;
+        height: 50px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+     }
+     .related-stories
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px 110px;
+        gap: 40px;
+        width: 1440px;
+        height: 660px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 7;
+        flex-grow: 0;
+     }
+     .related-stories-heading
+     {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 389px;
+        width: 1220px;
+        height: 44px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+     }
+     .str-heading
+     {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 323px;
+        height: 44px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+     }
+     .related-images
+     {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;
+        width: 1220px;
+        height: 496px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+     }
+     .re-images
+     {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        width: 1220px;
+        height: 496px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+     }
+
+    .beach-guide-heading {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        width: 1122px;
+        height: 42px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .gulf-Shores-title {
+        width: 596px;
+        height: 42px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gulf-shores-tag
+    {
+        width: 616px;
+        height: 44px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+        color: #489FCA;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gulf-gallery-tag
+    {
+        width: 980px;
+        height: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        /* identical to box height, or 125% */
+
+        text-transform: uppercase;
+        color: #489FCA;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .related-heading-tag
+    {
+        width: 323px;
+        height: 44px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 44px;
+        /* identical to box height */
+
+        text-transform: uppercase;
+        color: #489FCA;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    
+
+</style>
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="\Images\image 3.svg" alt="" width="293" height="68">
+        </a>
+        <div style="margin-left:64px;">
+            <a style="padding-left:250px;" class="nav-link" href="#">
+                <img src="\Images\Phone.svg" alt="" width="20" height="20">
+                888-404-2602
+            </a>
+        </div>
+        <div class="d-flex">
+            <div class="navbar-brand-btn">
+                <a class="btn-prop" style="width: 127px;height: 22px; text-align:center;" href="">Select a beach</a>
+            </div>
+            <div class="navbar-brand-btn" style="width:120px;">
+                <a class="btn-prop" style="width: 104px;">Beach a Buzz</a>
+            </div>
+            <div class="navbar-brand-btn" style="width:86px;">
+                <a class="btn-prop" style="width: 99px;">Wishlist</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+<div class="beach-guide">
+    <div class="beach-guide-box">
+        <div class="beach-guide-heading">
+            <h3 class="gulf-Shores-title">Gulf Shores, Alabama</h3>
+        </div>
+
+        <div class="beach-guide-options">
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Area</label><br>
+                    <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn2">
+                <div class="area">
+                    <label class="beach-guide-label">Property</label><br>
+                    <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn3">
+                <div class="area">
+                    <label class="beach-guide-label">Rental Unit</label><br>
+                    <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn4">
+                <div class="area">
+                    <label class="beach-guide-label">Check In</label><br>
+                    <label class="beach-guide-label2">02/06/2023</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn5">
+                <div class="area">
+                    <label class="beach-guide-label">Check Out</label><br>
+                    <label class="beach-guide-label2">20/06/2023</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn6">
+                <div class="area">
+                    <label class="beach-guide-label">Guest</label><br>
+                    <label class="beach-guide-label2">2 adults,2 childrens</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn7">
+                <div class="search-area">
+                    <div class="serch-area">
+                        <img src="\Images\Searchlogo2.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="navslides-box">
+    <div class="navslides-box1">
+        <div class="properties-nav">
+            <a class="btn-prop" href="">Properties</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop" style="width: 104px;">Rental Units</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop" style="width: 99px;">Informations</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Restaurants</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Golf</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Fishing</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Events</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop-8" style="width:167px;">Other Things To Do</a>
+        </div>
+    </div>
+</div>
+
+<div class="shores-heading">
+    <div class="shores-link">
+        <a href="#" style="color:#459DC9 ">Home&gt;</a>&nbsp;Gulf Shores Alabama Vacation Properties
+    </div>
+</div>
+
+
+
+<div class="descriptionBox">
+    <div class="description-heading">
+        <div class="gulf-heading">
+            <h1 style="width: 980px;height: 50px;font-family: 'Inter';font-style: normal;font-weight: 700;font-size: 40px;line-height: 50px;color: #489FCA;">
+                Gulf Shores, Alabama
+            </h1>
+            <p>
+                Life generally moves at a lazy pace in Gulf Shores, a beachside community on the Alabama coast. White sand, waving palm trees, and the clear emerald waters of the Gulf of Mexico make lazing oceanside the preferred pastime for locals and visitors alike.<br><br/> But for those who prefer more action, there's plenty to do. Fishing, swimming, sailing, and other water sports are all popular options. So is shopping in a multitude of stores and outlet malls offering everything from swimsuits to cookware to original artwork.<br><br/> Nature preserves, such as the Bon Secour National Wildlife Refuge, offer a walk on the wild side. For another up-close encounter with nature, try a boat tour of the area's bays, bayous, and marshes, all of which teem with native flora and fauna. At the Dauphin Island Sea Lab Estuarium, interactive exhibits showcasing the aquatic animal and plant life of Mobile Bay and the Gulf Coast region entrance visitors of all ages.<br><br/> History buffs are sure to enjoy visits to Fort Gaines and Fort Morgan. The latter, which guards the main channel into Mobile Bay, was part of a major naval battle during the Civil War.<br><br/> Just a short drive inland are the picturesque towns of Fairhope and Magnolia Springs. Founded more than 100 years ago, Fairhope is best known for its lovely parks, moss-draped live oaks, and spectacular views of Mobile Bay. It also offers a sophisticated mix of shops, boutiques, cafes and art galleries. Tree-shaded streets, gracious homes, and well-tended gardens give Magnolia Springs its special charm. Originally developed from a Spanish land grant in 1800, the town boasts natural springs once dubbed “the purest in the world.”.With mild temperatures and sunny skies the norm year-round, Gulf Shores is an ideal spot for an off-season getaway. It also offers a variety of special events throughout the year, including the National Shrimp Festival, which celebrates its 37th year this October, and the annual Frank Brown International Songwriters Festival, a 10-day musical celebration held each November.<br> <br/>With a year-round population of just over 7,000, Gulf Shores may be a tiny town, but don't be deceived. When it comes to fun, it delivers big time.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="gulf-shores-img">
+    <div class="gulf-shores-heading">
+        <div class="gulf-shores-tag">
+            <h2 style="width: 616px;font-weight: 600;font-size: 33px;line-height: 44px;">
+                PLAN YOUR TRIP TO GULF SHORES
+            </h2>
+        </div>
+    </div>
+
+
+  
+
+    <div class="gulf-image-Row">
+        <div class="row-img2">
+            <img src="\Images\GulfShoresCard.svg">
+            <div class="gulf-image-discription">
+                <p class="gulf-image-discription-heading">Restaurants</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                <p>More about:<a href="#" style="color:#4199C7"> Gulf Shores Restaurants</a></p>
+            </div>
+        </div>
+
+        <div class="row-img2">
+            <img src="\Images\GulfShoresCard2.svg">
+            <div class="gulf-image-discription">
+                <p class="gulf-image-discription-heading">GOLF</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                <p>More about:<a href="#" style="color:#4199C7"> Gulf Shores Restaurants</a></p>
+            </div>
+
+        </div>
+
+        <div class="row-img2">
+            <img src="\Images\GulfShoresCard3.svg">
+            <div class="gulf-image-discription">
+                <p class="gulf-image-discription-heading">FISHING</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                <p>More about:<a href="#" style="color:#4199C7"> Gulf Shores Restaurants</a></p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="gulf-image-Row">
+        <div class="row-img2">
+            <img src="\Images\GulfShoresCard4.svg">
+            <div class="gulf-image-discription">
+                <p class="gulf-image-discription-heading">SHOPPING</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                <p>More about:<a href="#" style="color:#4199C7"> Gulf Shores Restaurants</a></p>
+            </div>
+        </div>
+
+        <div class="row-img2">
+            <img src="\Images\GulfShoresCard5.svg">
+            <div class="gulf-image-discription">
+                <p class="gulf-image-discription-heading">EVENTS</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                <p>More about:<a href="#" style="color:#4199C7"> Gulf Shores Restaurants</a></p>
+            </div>
+
+        </div>
+
+        <div class="row-img2">
+            <img src="\Images\GulfShoresCard6.svg">
+            <div class="gulf-image-discription">
+                <p class="gulf-image-discription-heading">OTHER THINGS TO DO</p>
+                <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                <p>More about:<a href="#" style="color:#4199C7"> Gulf Shores Restaurants</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gulf-shores-gallery">
+    <div class="gulf-gallery-heading">
+        <div class="heading-boarder">
+            <h6 class="gulf-gallery-tag">Gulf Shores, Alabama photo gallery</h6>
+            <img src="\Images\GulfShoresGallery.svg">
+        </div>
+    </div>
+    <div>
+
+    </div>
+</div>
+
+<div class="related-stories">
+    <div class="related-stories-heading">
+        <div class="str-heading">
+            <h5 class="related-heading-tag">Related stories</h5>
+        </div>
+    </div>
+
+    <div class="related-images">
+        <div class="re-images">
+            <div class="row-img2">
+                <img src="\Images\Gulf-relatedstories.svg">
+                <div class="gulf-image-discription">
+                    <p class="gulf-image-discription-heading">Fort Walton Beach, FL</p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                </div>
+           </div>
+
+            <div class="row-img2">
+                <img src="\Images\Gulf-relatedstories2.svg">
+                <div class="gulf-image-discription">
+                    <p class="gulf-image-discription-heading">Gulf Shores Day Trip</p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                </div>
+           </div>
+
+            <div class="row-img2">
+                <img src="\Images\Gulf-relatedstories3.svg">
+                <div class="gulf-image-discription">
+                    <p class="gulf-image-discription-heading">Buying Travel Insurance</p>
+                    <p>Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<Footer />
+
+@code {
+
+}

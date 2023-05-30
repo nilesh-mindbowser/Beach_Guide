@@ -1,0 +1,306 @@
+/*/*****************************NavBar****************************/
+
+.navbar-brand[b-kc2y6jw0dd] {
+    width: 293px;
+    height: 68px;
+    margin-bottom: 20px;
+    background: url(image.png);
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.container-fluid[b-kc2y6jw0dd] {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-btn[b-kc2y6jw0dd] {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    width: 500px;
+    height: 54px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.navbar-brand-btn[b-kc2y6jw0dd] {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 10px;
+    gap: 10px;
+    width: 147px;
+    height: 54px;
+    background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+    border: 1px solid #4199C7;
+}
+
+.btn-prop[b-kc2y6jw0dd] {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    /* identical to box height */
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.telephone[b-kc2y6jw0dd] {
+    margin-left: 90px;
+}
+
+
+
+@media (max-width: 767px) {
+    .navslides-box[b-kc2y6jw0dd] {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .properties-nav[b-kc2y6jw0dd] {
+        height: 50px;
+    }
+}
+
+/* Media Query for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navslides-box1[b-kc2y6jw0dd] {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .properties-nav[b-kc2y6jw0dd] {
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .shores-heading[b-kc2y6jw0dd] {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 5px;
+    }
+
+    .shores-link[b-kc2y6jw0dd] {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .gulf-heading3[b-kc2y6jw0dd] {
+       
+    }
+
+    .gulf-title[b-kc2y6jw0dd] {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .gulf-inform[b-kc2y6jw0dd] {
+        padding-left: 0;
+        text-align: center;
+    }
+    .frame-row[b-kc2y6jw0dd] {
+        padding: 0px 0px 0px 0px;
+        margin-block: 15px;
+        display: inline-grid;
+    }
+    .sort-option-box[b-kc2y6jw0dd] {
+        display: inline-table;
+    }
+
+    .beach-guide-box[b-kc2y6jw0dd] {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 0px 50px 0px 0px;
+        gap: 25px;
+    }
+    .area[b-kc2y6jw0dd] {
+    }
+    .beach-guide-btn1[b-kc2y6jw0dd],
+    .beach-guide-btn2[b-kc2y6jw0dd] {
+        flex-grow: 0;
+        width: 26%;
+        padding: 26px 14px 21px 27px;
+    }
+
+    .gulf-Shores-title[b-kc2y6jw0dd] {
+        font-weight: 500;
+        font-size: 23px;
+    }
+    .beach-guide-options[b-kc2y6jw0dd] {
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    .navbar-brand-btn[b-kc2y6jw0dd] {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+        .navbar-brand-btn a[b-kc2y6jw0dd] {
+            width: 100%;
+            text-align: center;
+        }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .navbar-brand-btn[b-kc2y6jw0dd] {
+        width: 33.33%;
+    }
+}
+
+@media (max-width: 575px) {
+    .navbar .d-flex[b-kc2y6jw0dd] {
+        flex-wrap: wrap;
+    }
+
+    .navbar-brand-btn[b-kc2y6jw0dd] {
+        width: auto;
+        margin-right: 10px; /* Adjust the value as per your preference */
+        margin-bottom: 0;
+    }
+                               /* form Phone */
+    .telephone[b-kc2y6jw0dd] {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; /* Adjust the margin-top value as per your preference */
+    }
+
+        .telephone a[b-kc2y6jw0dd] {
+            display: flex;
+            align-items: center;
+            gap: 5px; /* Adjust the gap value as per your preference */
+        }
+
+}
+
+@media (min-width: 375px),(min-width: 425px),(min-width: 320px) {
+    .navbar-brand-btn[b-kc2y6jw0dd] {
+        width: 100%;
+        /* margin-bottom: 5px;*/
+    }
+}
+
+@media(max-width:768px) {
+    .gulf-title[b-kc2y6jw0dd] {
+        font-size: 17px;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-body[b-kc2y6jw0dd] {
+        justify-content: center;
+    }
+
+    .card[b-kc2y6jw0dd] {
+        width: 100%;
+    }
+}
+
+/***********************************FOR IPad Air ***************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .shores-heading[b-kc2y6jw0dd] {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 5px;
+    }
+
+    .shores-link[b-kc2y6jw0dd] {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .gulf-heading3[b-kc2y6jw0dd] {
+    }
+
+    .gulf-title[b-kc2y6jw0dd] {
+        font-size: 16px;
+        line-height: 29px;
+    }
+
+    .gulf-inform[b-kc2y6jw0dd] {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .frame-row[b-kc2y6jw0dd] {
+        padding: 0px 0px 0px 0px;
+        margin-block: 15px;
+        display: inline-grid;
+    }
+
+    .sort-option-box[b-kc2y6jw0dd] {
+        display: inline-table;
+    }
+
+    .beach-guide-box[b-kc2y6jw0dd] {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 3px 0px 0px 0px;
+        gap: 6px;
+        margin-left: 37px;
+    }
+
+
+    .beach-guide-btn1[b-kc2y6jw0dd],
+    .beach-guide-btn2[b-kc2y6jw0dd] {
+        flex-grow: 0;
+        width: 26%;
+        padding: 15px 19px 23px 20px;
+    }
+
+    .gulf-Shores-title[b-kc2y6jw0dd] {
+        font-weight: 500;
+        padding: 0px 60px 0px 0px;
+        font-size: 23px;
+    }
+
+
+    .navslides-box[b-kc2y6jw0dd] {
+        display: contents;
+    }
+
+    .navslides-box1[b-kc2y6jw0dd] {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .properties-nav[b-kc2y6jw0dd] {
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .pagination-box[b-kc2y6jw0dd] {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
