@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BEACHGUIDE-.Client
+build_property.RootNamespace = BEACHGUIDE-.Client
+build_property.ProjectDir = D:\For Backup\BEACHGUIDE-\BEACHGUIDE-\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\For Backup\BEACHGUIDE-\BEACHGUIDE-\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/AreaPropertyDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJlYVByb3BlcnR5RGV0YWlscy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/AreaInformation.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJlYUluZm9ybWF0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-biut27rihr
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/AreaInformationRes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJlYUluZm9ybWF0aW9uUmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ydsxwicxz8
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/AreaProperty.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJlYVByb3BlcnR5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-2s293qz8zs
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-aoke36eyeo
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/HomePage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-hypo0w43r2
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Pages/RentalUnit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVudGFsVW5pdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-kc2y6jw0dd
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ghrwa9byyz
+
+[D:/For Backup/BEACHGUIDE-/BEACHGUIDE-/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-bblschs2v4

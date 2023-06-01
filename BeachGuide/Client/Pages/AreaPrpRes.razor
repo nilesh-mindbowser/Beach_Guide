@@ -1,0 +1,1555 @@
+﻿@page "/arepropertydetails"
+
+<style>
+
+    .beach-guide {
+        width:100%;
+        height: 241px;
+        background-image: url("./Images/pp.png");
+        /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("pp.png");*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* Inside auto layout */
+        display: flex;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 85px 0px 0px;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 49px;
+        margin-left: 74px;
+    }
+
+    .beach-guide-heading {
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 16px;
+        height: 42px;
+        /* Inside auto layout */
+        order: 0;
+        flex-grow: 0;
+        color: white;
+    }
+
+    .gulf-Shores-title {
+        height: 42px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-options {
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: row;*/
+        align-items: center;
+        padding: 0px 72px 0px 0px;
+        height: 62px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn1,
+    .beach-guide-btn2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 29px 30px;
+        gap: 10px;
+        height: 59px;
+        background: #FFFFFF;
+        border-right: 1px solid #9D9D9D;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-btn7 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6px 14px;
+        gap: 10px;
+        width: 72px;
+        height: 59px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 6;
+        flex-grow: 0;
+    }
+
+    .search-area {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        padding: 9px;
+        gap: 10px;
+        width: 40px;
+        height: 40px;
+        /* Icon Colour */
+
+        background: rgba(254, 171, 24, 0.8);
+        /* White */
+
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 0px 4px #FF8807;
+        border-radius: 100px;
+    }
+
+    .navslides-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 0px 0px 68px;
+        background: #FFFFFF;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .navslides-box1 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .properties-nav {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 25px 0px 19px;
+        gap: 10px;
+        isolation: isolate;
+        height: 60px;
+        background: linear-gradient(176.06deg, #7CBBD9 3.22%, #469DC9 96.78%);
+        border: 1px solid #4199C7;
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .btn-prop-8 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        /* blue linear */
+        color: #FFFFFF;
+        flex: none;
+        order: 7;
+        flex-grow: 0;
+    }
+
+    .shores-heading {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 24px 69px;
+        gap: 10px;
+        height: 80px;
+        text-decoration: none;
+        background: #FFFFFF;
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .navbar-brand {
+        width: 293px;
+        height: 68px;
+        margin-bottom: 20px;
+        background: url(image.png);
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .container-fluid {
+      /*  display: flex;
+        gap: 10px;*/
+    }
+
+    .navbar-btn {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 64px;
+        width: 500px;
+        height: 54px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .navbar-brand-btn {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 16px 10px;
+        gap: 10px;
+        width: 147px;
+        height: 54px;
+        background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+        border: 1px solid #4199C7;
+    }
+
+    .btn-prop {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        text-decoration: none;
+        /* identical to box height */
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        z-index: 0;
+    }
+
+    .telephone {
+        margin-left: 90px;
+    }
+
+    .gulf-title {
+        /*width: 1001px;*/
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #489FCA;
+
+    }
+
+    .beach-clubslider-slideimg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 99px;
+        width: 1219px;
+        height: 500px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .booking-Request-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 40px 0px 0px 0px;
+        gap: 18px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 5;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .booknow-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 14px 20px;
+        gap: 10px;
+        width: 119px;
+        height: 45px;
+        /* linear */
+
+        background: linear-gradient(180deg, #FEAF1A 0%, #FF7D02 100%);
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .requestInfo-btn {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 14px 20px;
+        gap: 10px;
+        width: 143px;
+        height: 45px;
+        /* blue linear */
+
+        background: linear-gradient(176.06deg, #7CBBD9 3.22%, #469DC9 96.78%);
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .booknow-prop {
+        /* width: 103px;*/
+        height: 17px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-club-slider {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 38px 0px 0px 0px;
+        gap: 35px;
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+
+    .beach-clubslider-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 5px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .clubslider-heading2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    h5 {
+        height: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        /* identical to box height, or 125% */
+
+        text-transform: uppercase;
+        color: #489FCA;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    beach-clubslider-slideimg {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 99px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .shores-property-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 35px 0px;
+      
+        background: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 6;
+        flex-grow: 0;
+    }
+
+    .shores-property-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+      B  flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .shores-property-heading {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .property-Information {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 389px;
+        width: 977px;
+        height: 29px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+    .more-information {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 18px;
+        width: 219px;
+        height: 22px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .booknow-prop {
+        /* width: 103px;*/
+        height: 17px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .shores-aminities {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 63px 0px 0px 0px;
+        gap: 24px;
+      
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .property-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 20px;
+        width: 501px;
+        height: 29px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .aminities-beach-club {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .aminities-beach-row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 18px;
+        width: 220px;
+        height: 192px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .rectangle {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        /* orange */
+
+        background: #FF8807;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .heightlight-text {
+        width: 115px;
+        height: 24px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150.02%;
+        /* identical to box height, or 24px */
+
+
+        color: #000000;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .resort-paragraph
+    {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.02%;
+        padding: 18px 111px 0px 0px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .clubglufshoresimg{
+        width: 945px;
+        height: 500px;
+        left: 137px;
+        top: 0px;
+    }
+
+    .gulf-hedding {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 73px 0px 0px 0px;
+      
+        background: #FFFFFF;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        justify-content: center;
+    }
+
+    .gulf-hedding2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+       
+       
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .gulf-hedding3 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       padding: 24px 0px 24px 0px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .gulf-title {
+        width: 600px;
+        height: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #489FCA;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 1;
+    }
+
+   /* a********************************RENTALPAGE*************/
+    .frame-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5px 0px 8px 0px;
+        gap: 20px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .card-people-details {
+        box-sizing: border-box;
+        /* Auto layout */
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 10px;
+        gap: 10px;
+        width: 332px;
+        height: 35px;
+        background: #02285C;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin-top: 20px;
+    }
+
+    .card-details-text {
+        width: 67px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+        .card-details-text:not(:last-child) {
+            border-right: 1px solid #ddd;
+        }
+
+    .card-details-text3:not(:last-child) {
+        border-right: 1px solid #ddd;
+    }
+
+    .card-details-text2 {
+        width: 92px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .card-details-text3 {
+        width: 97px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+
+    .card-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0px 9px 0px 16px;
+        color: #4E4E4E;
+        margin-top: 20px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .card-frame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+        gap: 10px;
+        width: 260px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .card-frame1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 50px;
+        height: 39px;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .card-frame2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 50px;
+        height: 39px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+    }
+
+    .card-frame3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 50px;
+        height: 39px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+    }
+
+    .card-frame4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 4px;
+        width: 50px;
+        height: 39px;
+        /* Inside auto layout */
+
+        flex: none;
+        order: 6;
+        flex-grow: 0;
+    }
+
+    .card-heding {
+        /* width: 204px;
+            height: 29px;*/
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 8px;
+        font-size: 24px;
+        line-height: 29px;
+        /* identical to box height */
+        /* blue */
+        color: #4199C7;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .card {
+        flex: 0 0 calc(33.33% - 20px);
+        background-color: #f2f2f2;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .fluid-image {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+</style>
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="\Images\image 3.svg" alt="" width="293" height="68">
+        </a>
+        <div class="telephone">
+            <a>
+                <img src="\Images\Phone.svg" alt="" width="20" height="20">
+                888-404-2602
+            </a>
+        </div>
+        <div class="d-flex">
+            <div class="navbar-brand-btn">
+                <a class="btn-prop" href="">Select a beach</a>
+            </div>
+            <div class="navbar-brand-btn">
+                <a class="btn-prop">Beach a Buzz</a>
+            </div>
+            <div class="navbar-brand-btn">
+                <a class="btn-prop">Wishlist</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="beach-guide">
+    <div class="beach-guide-box">
+        <div class="beach-guide-heading">
+            <h3 class="gulf-Shores-title">Gulf Shores, Alabama</h3>
+        </div>
+        <div class="beach-guide-options">
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Area</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn2">
+                <div class="area">
+                    <label class="beach-guide-label">Property</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Rental Unit</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Check In</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Check Out</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn1">
+                <div class="area">
+                    <label class="beach-guide-label">Guest</label>
+                </div>
+            </div>
+
+            <div class="beach-guide-btn7">
+                <div class="search-area">
+                    <div class="serch-area">
+                        <img src="\Images\Searchlogo2.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@*<div class="navslides-box">
+    <div class="navslides-box1">
+        <div class="properties-nav">
+            <a class="btn-prop" href="">Properties</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop" style="width: 104px;">Rental Units</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop" style="width: 99px;">Informations</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Restaurants</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Golf</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Fishing</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop">Events</a>
+        </div>
+        <div class="properties-nav">
+            <a class="btn-prop-8">Other Things To Do</a>
+        </div>
+    </div>
+</div>*@
+
+<div class="shores-heading">
+    <div class="shores-link">
+        <a href="" style="color:#459DC9 ">Home&gt;</a>&nbsp;Gulf Shores Alabama Vacation Properties
+    </div>
+</div>
+
+
+<div class="beach-club-slider">
+    <div class="beach-clubslider-heading">
+        <div class="clubslider-heading2">
+            <h5>Beach Club Gulf Shores</h5>
+        </div>
+        <p>Gulf Shores, Alabama (375-D Beach Club TrailGulf Shores, AL 36542)</p>
+    </div>
+    <div class="beach-clubslider-slideimg">
+        <img class="clubglufshoresimg" src="\Images\AreaPropertyDetails\Area-PropertyDetailsImg.svg" alt="Image Description">
+    </div>
+</div>
+
+<div class="booking-Request-btn">
+    <div class="booknow-btn">
+        <a class="booknow-prop" href="">BOOK NOW</a>
+    </div>
+    <div class="requestInfo-btn">
+        <a class="booknow-prop" href="">REQUEST INFO</a>
+    </div>
+</div>
+
+
+<div class="shores-property-info">
+    <div class="shores-property-details">
+        <div class="shores-property-heading">
+            <div class="property-Information">
+                <div>
+                    <h4 style="font-weight: 600;">BEACH CLUB GULF SHORES PROPERTY INFORMATION</h4>
+                </div>
+            </div>
+            <div class="more-information">
+              @*  <div>
+                    <a class="gulf-inform">More Information</a>
+                </div>*@
+            </div>
+        </div>
+        <div class="resort-paragraph">
+            <p>
+                Beach Club Resort on the Alabama Gulf Coast’s peaceful Fort Morgan Peninsula provides plenty of pampering for guests of all ages. Amenities at the gated community include multiple swimming pools, a spa and fitness center, a sauna and steam room, shops, an outdoor café, a concert pavilion, and an ice cream parlor. Also on-site at this luxurious Gulf Shores condo rental property are tennis and volleyball courts, barbecue grills, and a seasonal tiki bar.<br /><br>
+
+                All of the units at the Beach Club Gulf Shores condos boast their own private balconies with views of the Gulf, fully-equipped kitchens with dishwashers and microwaves, cable TV, full-size washers and dryers, and an upscale, updated decor.<br /><br>
+
+                In addition to the beach, outdoor enthusiasts will enjoy the well-marked trails and unspoiled beauty of nearby Bon Secour National Wildlife Refuge. Other conveniently close attractions include Forts Morgan and Gaines, both of which played pivotal roles in the Civil War, and the Dauphin Island Sea Lab Estuarium, which features interactive exhibits showcasing the plants and animals that live along the Gulf Coast and Mobile Bay. There’s great golfing at Kiva Dunes, an 18-hole course designed by Jerry Pate, as well as Peninsula Golf and Racquet Club’s 27 holes of championship golf. Also nearby is the Alabama Gulf Coast Zoo.
+            </p>
+        </div>
+    </div>
+
+    <div class="shores-aminities">
+        <div class="shores-property-heading">
+            <div class="property-heading">
+                <h4 style="font-weight: 600;font-size: 22px;">AMENITIES AT BEACH CLUB GULF SHORES</h4>
+            </div>
+        </div>
+        <div class="aminities-beach-club">
+            <div class="aminities-beach-row">
+                <div class="rectanglepoint">
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Balcony / Patio</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Elevator</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Gulf Front</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Kid Activities</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Parking Complimentary</span>
+                </div>
+            </div>
+            <div class="aminities-beach-row">
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Barbecue Grills</span>
+                </div>
+
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Fitness Centers</span>
+                </div>
+
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">High Speed Internet</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Meeting facilities</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">WiFi</span>
+                </div>
+            </div>
+            <div class="aminities-beach-row">
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Beach Walkaway</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Gameroom</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Hot Tub</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Outdoor Heated Pool</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Children’s Pool</span>
+                </div>
+            </div>
+            <div class="aminities-beach-row">
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Gazebo</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Indoor Pool</span>
+                </div>
+                <div>
+                    <div class="rectangle"></div>
+                    <span class="heightlight-text">Outdoor Shower</span>
+                </div>
+            </div>
+        </div>
+       @* <p style="flex: none;order: 2;flex-grow: 0;">
+            * The information provided, though deemed accurate, is not guaranteed. It is subject to errors, omissions, change of price, or withdrawal without notice and may not include taxes and other fees. Based on availability. Some rates may be lowest prices available. Holiday rates may be higher .
+        </p>*@
+    </div>
+</div>
+
+<div>
+    <div class="gulf-hedding">
+        <div class="gulf-heading2">
+            <div class="gulf-heading3">
+                <h2 class="gulf-title">AVAILABLE RENTAL UNITS</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-body">
+    <div class="frame-row">
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="frame-row">
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="frame-row">
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div>
+                <div class="card-heding">
+                    <h4>Watersapce B618</h4>
+                </div>
+                <div>
+                    <img class="fluid-image" src="\Images\image6.svg" alt="Image">
+                </div>
+
+                <div class="card-people-details">
+                    <label class="card-details-text">5 People</label>
+                    <label class="card-details-text3">3 Bedroom</label>
+                    <label class="card-details-text2">2 Bathrooms</label>
+                </div>
+                <div class="card-text">
+                    <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                </div>
+                <div class="card-frame">
+                    <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector.svg"><br />
+                            <label class="icon-label">Gym</label>
+                        </a>
+                    </div>
+                    <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector1.svg"><br />
+                            <label class="icon-label">Pool</label>
+                        </a>
+                    </div>
+                    <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector2.svg"><br />
+                            <label class="icon-label" style="width:44px;">Dinner</label>
+                        </a>
+                    </div>
+                    <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
+                        <a href="">
+                            <img src="\Images\Vector3.svg"><br />
+                            <label class="icon-label">Golf</label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<Footer />

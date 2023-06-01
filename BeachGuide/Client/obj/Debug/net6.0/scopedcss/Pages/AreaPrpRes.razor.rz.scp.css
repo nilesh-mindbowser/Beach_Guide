@@ -1,0 +1,127 @@
+
+
+
+/***********************************FOR IPad Air ***************************************************/
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .shores-heading[b-5kykb0p839] {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 5px;
+    }
+
+    .shores-link[b-5kykb0p839] {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .beach-guide-box[b-5kykb0p839] {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 3px 0px 0px 0px;
+        gap: 6px;
+        margin-left: 37px;
+    }
+
+
+    .beach-guide-btn1[b-5kykb0p839],
+    .beach-guide-btn2[b-5kykb0p839] {
+        flex-grow: 0;
+        width: 26%;
+        padding: 26px 14px 21px 27px;
+    }
+
+    .gulf-Shores-title[b-5kykb0p839] {
+        font-weight: 500;
+        padding: 0px 60px 0px 0px;
+        font-size: 23px;
+    }
+
+
+    .navslides-box[b-5kykb0p839] {
+        display: contents;
+    }
+
+    .navslides-box1[b-5kykb0p839] {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .properties-nav[b-5kykb0p839] {
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+
+    .container-body[b-5kykb0p839] {
+        justify-content: center;
+    }
+
+    .card[b-5kykb0p839] {
+        padding: 6px 30px 11px 31px;
+        margin-top: 23px;
+    }
+    .frame-row[b-5kykb0p839] {
+        display: table;
+    }
+
+
+    .row-frame1[b-5kykb0p839] {
+        display: inline;
+    }
+
+    .row-heading-box[b-5kykb0p839] {
+        display: contents;
+    }
+
+    .beach-clubslider-slideimg[b-5kykb0p839] {
+    }
+    .clubglufshoresimg[b-5kykb0p839] {
+        width: 41%;
+    }
+
+    h5[b-5kykb0p839] {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .booking-Request-btn[b-5kykb0p839] {
+        margin-top: 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    h4[b-5kykb0p839] {
+        font-size: large;
+    }
+    .resort-paragraph[b-5kykb0p839] {
+        font-size: smaller;
+    padding: 9px 702px 0px 5px;
+    }
+
+    .beach-club-slider[b-5kykb0p839] {
+        gap: 0px;
+    }
+
+    .gulf-title[b-5kykb0p839] {
+        padding: 22px 0px 0px 0px;
+        font-size: x-large;
+    }
+
+    .shores-aminities[b-5kykb0p839] {
+    }
+    .aminities-beach-club[b-5kykb0p839] {
+    }
+    .aminities-beach-row[b-5kykb0p839] {
+        width: 100px;
+        display: inline-grid;
+    }
+}
+
+@media (min-width: 375px),(min-width: 425px),(min-width: 320px) {
+    .navbar-brand-btn[b-5kykb0p839] {
+        width: 100%;
+        /* margin-bottom: 5px;*/
+    }
+}

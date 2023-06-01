@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BeachGuide.Server.props" />
+</Project>

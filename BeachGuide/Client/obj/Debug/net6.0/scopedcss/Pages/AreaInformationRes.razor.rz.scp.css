@@ -1,0 +1,123 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .shores-heading[b-pg95c8gunt] {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 5px;
+    }
+
+    .shores-link[b-pg95c8gunt] {
+        width: 100%;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .gulf-heading3[b-pg95c8gunt] {
+        padding: 0px 110px 0px 0px;
+    }
+
+    .row-img2[b-pg95c8gunt] {
+        display: grid;
+        margin-left: 75px;
+    }
+
+    .gulf-title[b-pg95c8gunt] {
+        font-size: 16px;
+        line-height: 29px;
+        padding: 0px 7px 24px 2px;
+    }
+
+    .gulf-image-Row[b-pg95c8gunt] {
+        display: contents;
+    }
+
+
+    .beach-guide-box[b-pg95c8gunt] {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 3px 0px 0px 0px;
+        gap: 6px;
+        margin-left: 37px;
+    }
+
+
+    .beach-guide-btn1[b-pg95c8gunt],
+    .beach-guide-btn2[b-pg95c8gunt] {
+        flex-grow: 0;
+        width: 26%;
+        padding: 26px 14px 21px 27px;
+    }
+
+    .gulf-Shores-title[b-pg95c8gunt] {
+        font-weight: 500;
+        padding: 0px 60px 0px 0px;
+        font-size: 23px;
+    }
+
+
+    .navslides-box[b-pg95c8gunt] {
+        display: contents;
+    }
+
+    .navslides-box1[b-pg95c8gunt] {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .properties-nav[b-pg95c8gunt] {
+        flex-grow: 0;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    .pagination-box[b-pg95c8gunt] {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .row-frame1[b-pg95c8gunt] {
+    }
+
+    .container-body[b-pg95c8gunt] {
+        justify-content: center;
+    }
+
+    .gulf-shores-gallery[b-pg95c8gunt] {
+        font-size: 25px;
+    }
+
+    .gulf-gallery-img[b-pg95c8gunt] {
+        width: 50%;
+        margin-left: 40px;
+    }
+    .related-heading-tag[b-pg95c8gunt] {
+        font-size: 27px;
+        flex-grow: 0;
+    }
+    .related-stories-heading[b-pg95c8gunt] {
+        padding: 327px 0px 0px 0px;
+    }
+    .gulf-row-img2[b-pg95c8gunt] {
+
+    }
+    .re-images[b-pg95c8gunt] {
+        display:grid;
+    }
+    .related-stories[b-pg95c8gunt] {
+      
+    }
+    .related-images[b-pg95c8gunt] {
+    }
+    .gulf-info-paragraph[b-pg95c8gunt] {
+        padding: 0px 340px 4px 3px;
+    }
+}
+
+@media (min-width: 375px),(min-width: 425px),(min-width: 320px) {
+    .navbar-brand-btn[b-pg95c8gunt] {
+        width: 100%;
+        /* margin-bottom: 5px;*/
+    }
+}

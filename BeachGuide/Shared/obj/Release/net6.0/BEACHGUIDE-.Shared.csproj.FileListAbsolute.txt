@@ -1,0 +1,12 @@
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\bin\Release\net6.0\BEACHGUIDE-.Shared.deps.json
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\bin\Release\net6.0\BEACHGUIDE-.Shared.dll
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\bin\Release\net6.0\BEACHGUIDE-.Shared.pdb
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.csproj.AssemblyReference.cache
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.AssemblyInfoInputs.cache
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.AssemblyInfo.cs
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.csproj.CoreCompileInputs.cache
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.dll
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\refint\BEACHGUIDE-.Shared.dll
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\BEACHGUIDE-.Shared.pdb
+C:\Users\prajakta.chavan\source\repos\BEACHGUIDE-\BEACHGUIDE-\Shared\obj\Release\net6.0\ref\BEACHGUIDE-.Shared.dll
