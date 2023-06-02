@@ -2,8 +2,9 @@
 
 <style>
     .beach-guide {
+
         width: 100%;
-        height: 241px;
+        height: 241vw;
         background-image: url("./Images/pp.png");
         /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("pp.png");*/
         background-repeat: no-repeat;
@@ -21,7 +22,7 @@
         padding: 0px;
         gap: 40px;
         flex-wrap: wrap;
-        margin-top: 93px;
+       /* margin-top: 93px;*/
         margin-left: 10px;
     }
 
@@ -124,7 +125,7 @@
         padding: 0px;
         overflow: hidden;
         border: 1px solid #FF8807;
-        padding: 3px;
+        padding: 9px;
     }
 
     .fluid-image {
@@ -167,7 +168,7 @@
         flex-direction: row;
         align-items: center;
         padding: 5px 0px 8px 0px;
-        gap: 20px;
+        gap: 25px;
         flex: none;
         order: 1;
         flex-grow: 0;
@@ -178,10 +179,10 @@
         /* Auto layout */
         flex-direction: column;
         align-items: flex-start;
-        padding: 8px 10px;
+        padding: 6px 14px;
         gap: 10px;
-        width: 332px;
-        height: 35px;
+        width: 296px;
+        height: 36px;
         background: #02285C;
         border: 1px solid rgba(255, 255, 255, 0.3);
         flex: none;
@@ -446,6 +447,7 @@
         line-height: 22px;
         text-transform: uppercase;
         color: #489FCA;
+        flex: 1;
     }
 
     .gulf-inform {
@@ -473,6 +475,9 @@
         padding: 24px 69px;
         background: #FFFFFF;
         justify-content: center;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
     }
 
     .sort-box {
@@ -505,6 +510,7 @@
     }
 
     .card-img {
+        max-width: 100%;
         margin-top: 20px;
         width: 344px;
         height: 217px;
@@ -514,26 +520,29 @@
     }
 
     .line-btn {
-        /* Auto layout */
-
+          position: absolute;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         padding: 5px 20px;
         gap: 16px;
-        position: absolute;
-        width: 112px;
-        height: 38px;
-        margin-left: 222px;
-        margin-top: 10px;
+        width: 112vw;
+        height: auto;
+        margin-left: 222vw;
+        margin-top: 10vw;
         /* top: 10px;*/
         background: rgba(0, 0, 0, 0.3);
         border-radius: 20px;
     }
 
-   /* .gulf-heading3 {
+    .gulf-heading3 {
         display: flex;
-    }*/
+        align-items: center;
+        flex-direction: row;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
 
     .menu-button {
         display: none; /* Hide the button by default */
@@ -564,8 +573,56 @@
         flex-grow: 0;
     }
     .moreInfo{
-       /* margin-left: 769px;
-        line-height: 21px;*/
+        display: flex;
+        flex-direction: row;
+        margin-left: 312px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    .gulf-heading2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label {
+       
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #FF8807;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .beach-guide-label2 {
+        width: 80px;
+        height: 19px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+        /* Black */
+
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+    .waterspace-img{
+        width: 100%;
+        height: auto;
     }
 
 </style>
@@ -605,36 +662,42 @@
             <div class="beach-guide-btn1">
                 <div class="area">
                     <label class="beach-guide-label">Area</label>
+                    <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn2">
                 <div class="area">
                     <label class="beach-guide-label">Property</label>
+                    <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
                     <label class="beach-guide-label">Rental Unit</label>
+                    <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
                     <label class="beach-guide-label">Check In</label>
+                    <label class="beach-guide-label2">02/06/2023</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
                     <label class="beach-guide-label">Check Out</label>
+                    <label class="beach-guide-label2">20/06/2023</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
                     <label class="beach-guide-label">Guest</label>
+                    <label class="beach-guide-label2">2 adults,2 childrens</label>
                 </div>
             </div>
 
@@ -656,10 +719,10 @@
             <a class="btn-prop" href="">Properties</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" style="width: 104px;">Rental Units</a>
+            <a class="btn-prop">Rental Units</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" style="width: 99px;">Informations</a>
+            <a class="btn-prop">Informations</a>
         </div>
         <div class="properties-nav">
             <a class="btn-prop">Restaurants</a>
@@ -703,7 +766,7 @@
             <option value="">Property Name(A-Z)</option>
         </select>
         <div class="pagination-box">
-            <label class="flex: none;order: 0;flex-grow: 0 ; f">Search has returned 100 results.:</label>
+            <label style="flex: none;order: 0;flex-grow: 0 ;">Search has returned 100 results.:</label>
         </div>
     </div>
 </div>
@@ -730,7 +793,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
           
                     <div class="card-people-details">
@@ -790,7 +853,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -849,7 +912,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -910,7 +973,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -969,7 +1032,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -1028,7 +1091,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -1087,7 +1150,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -1146,7 +1209,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
@@ -1204,7 +1267,7 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\image6.svg" alt="Image">
+                    <img src="\Images\image6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">

@@ -50,7 +50,7 @@
     color: white;
 }
 
-@media (min-width: 641px) {
+@media (min-width: 820px) {
     .navbar-toggler {
         display: none;
     }
@@ -64,7 +64,7 @@
 
 /***********************************Menu Bar*************************/
 
-@media (max-width: 767px) {
+@media (max-width: 820px){
     .menu-button {
         display: block; /* Show the button for screens smaller than 767px */
         position: fixed;

@@ -197,14 +197,14 @@
       "netstandard.dll": "sha256-6NXprR7wyUZxpdXxaSPHSoC5uOL5UCc7bsZG3TSuVxE=",
       "System.Private.CoreLib.dll": "sha256-igtwZSR0\/lrbmwL\/XiTsEkIeSL+736GHTZPReYguZCQ=",
       "BeachGuide.Shared.dll": "sha256-xPzwjr2e2Do9PC6Q5U1FaJRk809wfzv3vcqc3W34E3g=",
-      "BeachGuide.Client.dll": "sha256-\/uB7JwUd92aOgvdZwlTxrlh9WSAEsiSrJjIwZPlr2rc="
+      "BeachGuide.Client.dll": "sha256-zkeO\/wI61c6FouqujIO8GOCHDVbiD\/R6LCXGG0Cc53I="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "BeachGuide.Shared.pdb": "sha256-klKgd+elXmMFvArp2CvpLCP5yY3rqsV22JkJbb0LVSs=",
-      "BeachGuide.Client.pdb": "sha256-WuN9+NrKPN46bdKvyivwK9zKOetp6z6dLVehP99XeDw="
+      "BeachGuide.Client.pdb": "sha256-1yIGo0fLhncVxdYiifkfMQuCA6caMODLLq2Pn2fN5MY="
     },
     "runtime": {
       "dotnet.6.0.14.4zgvglj3vr.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",

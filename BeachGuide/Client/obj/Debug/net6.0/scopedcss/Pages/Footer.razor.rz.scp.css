@@ -117,16 +117,19 @@ ul[b-obist3u3ks] {
     width: 186px; 
 }
 
+.copyBox[b-obist3u3ks] {
+    border-radius: 5px;
+    border: 1px solid #064F9C;
+}
 
 
 /*responsive*/
 /*@media(max-width: 767px)(max-width: 900px) {*/
-   /* .footer-col {
+/* .footer-col {
         width: 50%;
         margin-bottom: 30px;
     }*/
-
-    /*.footer-logo {
+/*.footer-logo {
         display: flex;
         flex-wrap: wrap;
     }
@@ -149,8 +152,6 @@ ul[b-obist3u3ks] {
         align-items: center;
     }
 }*/
-
-
 @media (max-width: 820px) {
     .footer[b-obist3u3ks] {
        /* padding: 29px 22px 0px 0px;*/
@@ -224,17 +225,32 @@ ul[b-obist3u3ks] {
 
 }
 
-@media (min-width: 768px) {
+
+
+/***************************************** CSS rules specific to iPad Pro 7 in landscape mode */
+
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .row[b-obist3u3ks] {
-      
     }
     .footer-col[b-obist3u3ks] {
-      /*  width: 43%;
-        padding: 9px 17px 0px 44px;*/
+        display: inline-table;
     }
-    .logo-img[b-obist3u3ks] {
-
+    .card[b-obist3u3ks] {
     }
+}
 
+
+/********************************* CSS rules specific to Google Nest Hub in landscape mode */
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 960px) and (orientation: landscape) {
+    .footer-col[b-obist3u3ks] {
+    }
+  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .footer-col[b-obist3u3ks] {
+    }
 }
 

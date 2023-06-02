@@ -108,7 +108,6 @@
     }
 
     .gulf-heading3[b-klyc01bj3c] {
-       
     }
 
     .gulf-title[b-klyc01bj3c] {
@@ -120,11 +119,13 @@
         padding-left: 0;
         text-align: center;
     }
+
     .frame-row[b-klyc01bj3c] {
         padding: 0px 0px 0px 0px;
         margin-block: 15px;
         display: inline-grid;
     }
+
     .sort-option-box[b-klyc01bj3c] {
         display: inline-table;
     }
@@ -135,8 +136,10 @@
         padding: 0px 50px 0px 0px;
         gap: 25px;
     }
+
     .area[b-klyc01bj3c] {
     }
+
     .beach-guide-btn1[b-klyc01bj3c],
     .beach-guide-btn2[b-klyc01bj3c] {
         flex-grow: 0;
@@ -148,8 +151,20 @@
         font-weight: 500;
         font-size: 23px;
     }
-   
+
+    .moreInfo[b-klyc01bj3c] {
+        margin-left: 0px;
+        padding-right: 23px;
+    }
+
+    .gulf-heading3[b-klyc01bj3c] {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+   
+
 
 
 
@@ -182,7 +197,7 @@
         margin-right: 10px; /* Adjust the value as per your preference */
         margin-bottom: 0;
     }
-                               /* form Phone */
+                               /* for Phone */
     .telephone[b-klyc01bj3c] {
         display: flex;
         justify-content: center;
@@ -313,37 +328,41 @@
 
 /********************************************* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media (min-width: 390px),(min-width: 360px) ,(min-width: 280px) {
+@media (min-width: 390px),(min-width: 355px),(min-width: 280px) {
     .beach-guide-box[b-klyc01bj3c] {
-        /* margin-top: 0px;*/
-        padding: 45px 1px 0px 0px;
+        padding: 20px 25px 0px 0px;
         display: flex;
-        gap: 20px;
-        margin-top: 23px;
-        margin-left: 36px;
+        gap: 10px;
+        margin-top: 11px;
+        margin-left: 47px;
     }
 
     .beach-guide[b-klyc01bj3c] {
-        height: 328px;
+        height: 275px;
         display: flex;
         width: 100%;
     }
+
     .gulf-Shores-title[b-klyc01bj3c] {
         display: contents;
-        font-size: 28px;
+        font-size: 24px;
     }
+
     .beach-guide-options[b-klyc01bj3c] {
         display: flex;
         padding: 0px 0px 0px 0px;
         align-items: center;
         margin-right: 0px;
         gap: 1px;
-      /*  margin-top: 63px;*/
+        /*  margin-top: 63px;*/
         margin-left: 0px;
     }
+  
+
     .beach-guide-heading[b-klyc01bj3c] {
-      /*  display: contents;*/
+        /*  display: contents;*/
     }
+
     .beach-guide-btn1[b-klyc01bj3c],
     .beach-guide-btn2[b-klyc01bj3c] {
         flex-grow: 0;
@@ -354,6 +373,7 @@
     .shores-link[b-klyc01bj3c] {
         margin-top: 11px;
     }
+
     .pagination-box[b-klyc01bj3c] {
         display: contents;
         margin-top: 0px;
@@ -361,22 +381,12 @@
         margin-left: 0px;*/
         /* padding: 23px 0px 0px 0px;*/
     }
+
     .gulf-title[b-klyc01bj3c] {
         font-size: 22px;
+       /* padding: 8px 246px 0px 0px;*/
     }
-    .gulf-hedding[b-klyc01bj3c] {
-       /* padding: 15px 0px 0px 20px;*/
-    }
-    .sort-box[b-klyc01bj3c] {
-       /* padding: 31px 0px 31px 20px;*/
-    }
-    .card-frame[b-klyc01bj3c] {
-    }
-    .icon-label[b-klyc01bj3c] {
-    }
-    .moreInfo[b-klyc01bj3c] {
-        margin-left: 0px;
-    }
+
 }
 
 @media(min-width:1024) {
@@ -396,10 +406,99 @@
     }
 }
 
-@media(max-width:1024px),(min-width:600px) {
+
+/***************************************** CSS rules specific to iPad Pro 7 in landscape mode */
+
+
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1194px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .frame-row[b-klyc01bj3c] {
+    }
+}
+
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .frame-row[b-klyc01bj3c] {
+        width: 60%;
+        margin-left: 89px;
+        display: grid;
+    }
     .card[b-klyc01bj3c] {
     }
-  /*  .frame-row {
-        padding: 12px 153px 0px 100px;
-    }*/
+}
+
+/********************************* CSS rules specific to Google Nest Hub in landscape mode */
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 960px) and (orientation: landscape) {
+    .card[b-klyc01bj3c] {
+    }
+    .frame-row[b-klyc01bj3c] {
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+    .card[b-klyc01bj3c] {
+    }
+    .frame-row[b-klyc01bj3c] {
+    }
+}
+
+/**************************************** CSS rules specific to iPhone 12 Pro */
+
+/*@media (min-device-width: 390px) , (min-device-width:360) {
+
+    .moreInfo {
+        margin-left: 0px;
+        padding-right: 23px;
+    }
+
+    .gulf-heading3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {*/
+    /* CSS rules specific to Samsung Galaxy S8 */
+    /*.moreInfo {
+        margin-left: 0px;
+        padding-right: 23px;
+    }
+
+    .gulf-heading3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}*/
+
+
+@media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+    /* CSS rules specific to Samsung Galaxy S8 */
+    .beach-guide[b-klyc01bj3c] {
+        padding: 5px 51px 1px 0px;
+        display: flex;
+        gap: 10px;
+        margin-top: 11px;
+        margin-left: 47px;
+    }
+}
+
+/**************form ipadAIR*/
+
+@media (width:820px) ,(width:768px){
+    .card[b-klyc01bj3c] {
+        width: 59%;
+        margin-left: 80px;
+    }
+}
+
+/**************form ipadMini*/
+
+
+@media (width:768px) {
+    .card[b-klyc01bj3c] {
+        width: 73%;
+        
+    }
 }
