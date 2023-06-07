@@ -1,12 +1,11 @@
-﻿/*/*****************************NavBar****************************/
-
+﻿
+/*/*****************************NavBar****************************/
 .navbar-brand {
     width: 293px;
     height: 68px;
     margin-bottom: 20px;
     background: url(image.png);
     /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -34,20 +33,8 @@
     flex-grow: 0;
 }
 
-.navbar-brand-btn {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 10px;
-    gap: 10px;
-    width: 147px;
-    height: 54px;
-    background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
-    border: 1px solid #4199C7;
-}
-
 .btn-prop {
+    display: block;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -59,12 +46,634 @@
     flex: none;
     order: 0;
     flex-grow: 0;
-    z-index: 0;
+    /* z-index: 0;*/
 }
 
 .telephone {
     margin-left: 90px;
 }
+
+/*From New Page************************************************/
+
+.beach-guide {
+    width: 100%;
+    height: 241px;
+    background-image: url("./Images/RentalUnits/pp.png");
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("pp.png");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    order: 1;
+    flex-grow: 0;
+}
+.beach-guide-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    flex-wrap: wrap;
+    /* margin-top: 93px;*/
+    margin-left: 10px;
+}
+
+.beach-guide-heading {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    height: 42px;
+    color: white;
+}
+
+.navbar-brand-btn {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 16px 0px 3px;
+    gap: 10px;
+    width: 147px;
+    height: 59px;
+    background: linear-gradient(180deg, #7DBCDA 0%, #459DC9 100%);
+    border: 1px solid #4199C7;
+}
+
+/*.navbar-nav {
+    margin-left: 312px;
+}*/
+
+
+.navslides-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 0px 0px 68px;
+    background: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.navslides-box1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.properties-nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 25px 0px 19px;
+    gap: 10px;
+    isolation: isolate;
+    height: 60px;
+    background: linear-gradient(176.06deg, #7CBBD9 3.22%, #469DC9 96.78%);
+    border: 1px solid #4199C7;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.shores-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 69px;
+    gap: 10px;
+    height: 80px;
+    text-decoration: none;
+    background: #FFFFFF;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.container-body {
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: #fff;
+    padding: 0px;
+    overflow: hidden;
+    border: 1px solid #FF8807;
+    padding: 9px;
+}
+
+.fluid-image {
+    width: 100%;
+    height: auto;
+}
+
+.gulf-Shores-title {
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    padding: 0px 105px 0px 0px;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.btn-prop-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    /* blue linear */
+    color: #FFFFFF;
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+.frame-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px 8px 0px;
+    gap: 25px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.card-people-details {
+    box-sizing: border-box;
+    /* Auto layout */
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 6px 14px;
+    gap: 10px;
+    width: 296px;
+    height: 36px;
+    background: #02285C;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin-top: 20px;
+}
+
+.card-details-text {
+    width: 67px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+    .card-details-text:not(:last-child) {
+        border-right: 1px solid #ddd;
+    }
+
+.card-details-text3:not(:last-child) {
+    border-right: 1px solid #ddd;
+}
+
+.card-details-text2 {
+    width: 92px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.card-details-text3 {
+    width: 97px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0px 0px 0px 3px;
+    color: #4E4E4E;
+    margin-top: 20px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 44px;
+    height: 39px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card-frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 44px;
+    height: 39px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.card-frame3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 50px;
+    height: 39px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.card-frame4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 50px;
+    height: 39px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.card-heding {
+    /* width: 204px;
+        height: 29px;*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 8px;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    /* blue */
+    color: #4199C7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.beach-guide-options {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row;*/
+    align-items: center;
+    padding: 0px 72px 0px 0px;
+    height: 62px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.beach-guide-btn1,
+.beach-guide-btn2 {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 55px 14px 20px;
+    gap: 10px;
+    height: 59px;
+    background: #FFFFFF;
+    border-right: 1px solid #9D9D9D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.beach-guide-btn7 {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 10px;
+    width: 72px;
+    height: 59px;
+    background: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.search-area {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    padding: 9px;
+    gap: 10px;
+    width: 40px;
+    height: 40px;
+    /* Icon Colour */
+    background: rgba(254, 171, 24, 0.8);
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 0px 4px #FF8807;
+    border-radius: 100px;
+}
+
+.gulf-title {
+    /*width: 1001px;*/
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #489FCA;
+    flex: 1;
+}
+
+.gulf-inform {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FF8807;
+}
+
+.gulf-hedding3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px 8px 65px;
+}
+
+.gulf-hedding {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 69px;
+    background: #FFFFFF;
+    justify-content: center;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.sort-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 27px 69px;
+    gap: 10px;
+    background: #FFFFFF;
+    justify-content: center;
+}
+
+.sort-option-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    height: 44px;
+}
+
+.option-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    flex: none;
+    /* order: 1;*/
+    flex-grow: 0;
+}
+
+.pagination-box {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 267px;
+    color: #6A6A6A;
+}
+
+.card-img {
+    max-width: 100%;
+    margin-top: 20px;
+    width: 344px;
+    height: 217px;
+    background: url(.jpg);
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.line-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px 20px;
+    gap: 16px;
+    position: absolute;
+    width: 112px;
+    height: 38px;
+    margin-left: 222px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+/* .line-btn {
+          
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 5px 20px;
+        gap: 16px;
+        position: absolute;
+        width: 112vw;
+        height: 38px;
+        margin-left: 222vw;
+        margin-top: 10vw;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }*/
+
+.gulf-heading3 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-button {
+    display: none; /* Hide the button by default */
+}
+
+.image-container {
+    width: 28px;
+    height: 28px;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.icon-label {
+    width: 31px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #4199C7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.moreInfo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 312px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.gulf-heading2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.beach-guide-label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #FF8807;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.beach-guide-label2 {
+    width: 80px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    /* Black */
+
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.waterspace-img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+
 
 
 
@@ -76,9 +685,13 @@
     .properties-nav {
         height: 50px;
     }
+
+    .navbar-brand img {
+        width: 235px; 
+    }
 }
 
-/* Media Query for screens between 768px and 1023px */
+/**************************** Media Query for screens between 768px and 1023px */
 @media (min-width: 768px) and (max-width: 1023px) {
     .navslides-box1 {
         flex-direction: column;
@@ -149,7 +762,7 @@
 
     .gulf-Shores-title {
         font-weight: 500;
-        font-size: 23px;
+        font-size: 2vw;
     }
 
     .moreInfo {
@@ -163,10 +776,6 @@
         align-items: center;
     }
 }
-   
-
-
-
 
 
 @media (max-width: 576px) {
@@ -188,28 +797,26 @@
 }
 
 @media (max-width: 575px) {
-    .navbar .d-flex {
-        flex-wrap: wrap;
-    }
 
     .navbar-brand-btn {
         width: auto;
-        margin-right: 10px; /* Adjust the value as per your preference */
+       /* margin-right: 10px; */
         margin-bottom: 0;
     }
-                               /* for Phone */
+ /* for Phone */
+
     .telephone {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 10px; /* Adjust the margin-top value as per your preference */
+        margin-top: 10px; 
     }
 
-        .telephone a {
-            display: flex;
-            align-items: center;
-            gap: 5px; /* Adjust the gap value as per your preference */
-        }
+    .telephone a {
+        display: flex;
+        align-items: center;
+        gap: 5px; 
+    }
 
 }
 
@@ -218,6 +825,8 @@
         width: 100%;
         /* margin-bottom: 5px;*/
     }
+   
+
 }
 
 @media(max-width:768px) {
@@ -324,6 +933,10 @@
     .beach-guide-options {
         padding: 0px 0px 0px 0px;
     }
+    .line-btn {
+        margin-left: 209px;
+    }
+
 }
 
 /********************************************* Small devices (portrait tablets and large phones, 600px and up) */
@@ -331,16 +944,16 @@
 @media (min-width: 390px),(min-width: 355px),(min-width: 280px) {
     .beach-guide-box {
         padding: 20px 25px 0px 0px;
-        display: flex;
+      /*  display: flex;*/
         gap: 10px;
         margin-top: 11px;
         margin-left: 47px;
     }
 
     .beach-guide {
-        height: 275px;
+        height: 250px;
         display: flex;
-        width: 100%;
+      /*  width: 100%;*/
     }
 
     .gulf-Shores-title {
@@ -350,11 +963,11 @@
 
     .beach-guide-options {
         display: flex;
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;                 
         align-items: center;
         margin-right: 0px;
-        gap: 1px;
-        /*  margin-top: 63px;*/
+       /* gap: 1px;*/
+        margin-top: 0px;
         margin-left: 0px;
     }
   
@@ -383,23 +996,54 @@
     }
 
     .gulf-title {
-        font-size: 22px;
+        font-size: 28px;
        /* padding: 8px 246px 0px 0px;*/
     }
-
 }
 
-@media(min-width:1024) {
-    .container-body {
+
+@media (max-width: 452px) {
+    .line-btn {
+        margin-left: 206px;
+        width: auto;
     }
 
-    .frame-row {
+    .beach-guide-btn7 {
+        border-radius: 0px;
+        width: 267px;
+        height: 45px;
+        background: #FEAF1A;
+    }
+    .beach-guide-box {
+    }
+}
+
+
+@media(width:360px){
+    .line-btn {
+        margin-left: 180px;
+    }
+   
+    .beach-guide {
+        display: block;
+    }
+    .beach-guide-options {
+        margin-right: 21px;
+    }
+    .area{
+    }
+   
+}
+
+@media(Min-width:375px){
+    .line-btn {
+        margin-left: 195px;
     }
 }
 
 @media(min-width:540px) {
     .card-text {
-        font-size: 15px;
+        font-size: 18px;
     }
     .container-body {
         display: grid;
@@ -409,11 +1053,6 @@
 
 /***************************************** CSS rules specific to iPad Pro 7 in landscape mode */
 
-
-@media only screen and (min-device-width: 1112px) and (max-device-width: 1194px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    .frame-row {
-    }
-}
 
 @media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .frame-row {
@@ -425,26 +1064,8 @@
     }
 }
 
-/********************************* CSS rules specific to Google Nest Hub in landscape mode */
-
-@media only screen and (min-device-width: 480px) and (max-device-width: 960px) and (orientation: landscape) {
-    .card {
-    }
-    .frame-row {
-    }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-    .card {
-    }
-    .frame-row {
-    }
-}
-
-/**************************************** CSS rules specific to iPhone 12 Pro */
-
-/*@media (min-device-width: 390px) , (min-device-width:360) {
-
+@media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
+    /* CSS rules specific to Samsung Galaxy S8 */
     .moreInfo {
         margin-left: 0px;
         padding-right: 23px;
@@ -455,22 +1076,12 @@
         flex-direction: column;
         align-items: center;
     }
+    .beach-guide-options {
+    }
+    .line-btn {
+        margin-left: 206px;
+    }
 }
-
-@media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {*/
-    /* CSS rules specific to Samsung Galaxy S8 */
-    /*.moreInfo {
-        margin-left: 0px;
-        padding-right: 23px;
-    }
-
-    .gulf-heading3 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-}*/
 
 
 @media only screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) {
@@ -500,5 +1111,36 @@
     .card {
         width: 73%;
         
+    }
+}
+
+/****************For Navbar button****
+*/
+
+/*@media (min-width: 375px),(min-width: 425px),(min-width: 320px) {
+    .navbar-brand-btn {
+        width: 100%;*/
+        /* margin-bottom: 5px;*/
+    /*}
+}*/
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: none;
+    }
+
+        .navbar-collapse.show {
+            display: block;
+        }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+       
+       
+    }
+    .navbar-collapse {
+        display: contents;
+        flex-direction: row-reverse;
     }
 }

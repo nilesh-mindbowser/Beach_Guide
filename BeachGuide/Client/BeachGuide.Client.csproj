@@ -20,7 +20,6 @@
     <Folder Include="wwwroot\Images\AreaInformation\" />
     <Folder Include="wwwroot\Images\AreaProperty\" />
     <Folder Include="wwwroot\Images\HomePage\" />
-    <Folder Include="wwwroot\Images\RentalUnits\" />
   </ItemGroup>
 
 </Project>

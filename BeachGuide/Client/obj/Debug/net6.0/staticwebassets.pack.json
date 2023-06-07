@@ -101,6 +101,62 @@
       "PackagePath": "staticwebassets\\Images\\RentalUnitAvailable.svg"
     },
     {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Heartlogo.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Heartlogo.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Phone.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Phone.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit1.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit1.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit2.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit2.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit3.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit3.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Searchlogo2.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Searchlogo2.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Vector.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Vector.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Vector1.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Vector1.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Vector2.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Vector2.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Vector3.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\Vector3.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\image 3.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\image 3.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\image6.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\image6.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\pp.png",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\pp.png"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\ptaglogo.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\ptaglogo.svg"
+    },
+    {
       "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\Searchlogo2.svg",
       "PackagePath": "staticwebassets\\Images\\Searchlogo2.svg"
     },
@@ -235,6 +291,18 @@
     {
       "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\twitterlogo.svg",
       "PackagePath": "staticwebassets\\Images\\twitterlogo.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Js\\Home.js",
+      "PackagePath": "staticwebassets\\Js\\Home.js"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Js\\RentalUnit.js",
+      "PackagePath": "staticwebassets\\Js\\RentalUnit.js"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Resource.resx",
+      "PackagePath": "staticwebassets\\Resource.resx"
     },
     {
       "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\css\\app.css",

@@ -254,3 +254,11 @@ ul {
     }
 }
 
+@media only screen and (width: 820px) {
+    .footer-col {
+       /* display: table;*/
+    }
+
+    .row {
+    }
+}

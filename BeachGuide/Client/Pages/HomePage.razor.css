@@ -102,16 +102,50 @@
     .row-heading-box {
         display: contents;
     }
-
-   
 }
+/*Pagination*********************************************/
+
+/*.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination-list {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.pagination-item {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+    .pagination-item.active {
+        background-color: #ccc;
+    }*/
+
+
+
+
 
 @media (min-width: 375px),(min-width: 425px),(min-width: 320px) {
     .navbar-brand-btn {
         width: 100%;
         /* margin-bottom: 5px;*/
     }
-
-   
 }
 
+
+@media (max-width: 768px) {
+    .d-flex {
+        display: none;
+    }
+
+        .d-flex.show {
+            display: block;
+        }
+}
