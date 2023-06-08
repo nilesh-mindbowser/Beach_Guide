@@ -22,3 +22,7 @@ D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\BeachGuide.Shared.dl
 D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\refint\BeachGuide.Shared.dll
 D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\BeachGuide.Shared.pdb
 D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\ref\BeachGuide.Shared.dll
+D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\BeachGuide.Shared.csproj.GenerateResource.cache
+D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\BeachGuide.Shared.Resources.Resource.resources
+D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\BeachGuide.Shared.Resources.ResourceRentalUnit.resources
+D:\For Backup\BeachGuide\BeachGuide\Shared\obj\Debug\net6.0\BeachGuide.Shared.Resources.ResourceFooter.resources

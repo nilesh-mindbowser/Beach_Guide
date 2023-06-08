@@ -1,4 +1,5 @@
 ﻿@page "/FooterResp"
+@inject IStringLocalizer<Resource> Localizer
 
 <style>
 
@@ -12,9 +13,7 @@
                     <img src="\Images\footerlogo.svg" alt="">
                     <div>
                         <p class="footer-content">
-                            Find beachfront vacation rentals along the beautiful white-sand beaches of the Alabama and Florida Gulf Coast.
-                            Choose from condo rentals, cottages, vacation homes and hotels. Learn more about things to do in our beach destinations, and find information on dining, shopping, golf, fishing and attractions. Also be sure to join us on Facebook and Pinterest,
-                            and join our email list to make sure you always get the latest news about events and special deals.
+                            @Localizer["FooterInformation"]
                         </p>
                         <p>
                             <img src="\Images\Phone.svg" class="phone-img"alt="" width="30" height="30">
@@ -26,32 +25,32 @@
 
             <div class="footer-col">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Feedback</a></li>
-                    <li><a href="#">Select a Beach</a></li>
-                    <li><a href="#">Deals</a></li>
-                    <li><a href="#">Beach Buzz</a></li>
+                    <li><a href="#">@Localizer["HomeColumn"]</a></li>
+                    <li><a href="#">@Localizer["FeedbackColumn"]</a></li>
+                    <li><a href="#">@Localizer["SelectBeachCol"]</a></li>
+                    <li><a href="#">@Localizer["DealsColumn"]</a></li>
+                    <li><a href="#">@Localizer["BeachBuzzCol"]</a></li>
                 </ul>
             </div>
             <div class="footer-col">
             
                 <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact BeachGuide</a></li>
-                    <li><a href="#">BeachGuide Magazine</a></li>
-                    <li><a href="#">Online Magazine</a></li>
+                    <li><a href="#">@Localizer["AboutUscolumn"]</a></li>
+                    <li><a href="#">@Localizer["ContactBeachCol"]</a></li>
+                    <li><a href="#">@Localizer["BeachGuideMagazinCol"]</a></li>
+                    <li><a href="#">@Localizer["OnlineMagazineCol"]</a></li>
                 </ul>
             </div>
             <div class="footer-col">
               
                 <ul>
-                    <li><a href="#">Resort Admin</a></li>
-                    <li><a href="#">Terms and Conditions</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">@Localizer["ResortAdminCol"]</a></li>
+                    <li><a href="#">@Localizer["TermsConditionsCol"]</a></li>
+                    <li><a href="#">@Localizer["PrivacyPolicyCol"]</a></li>
                 </ul>
             </div>
             <div class="footer-col">
-                <h4><b>Connect with BeachGuide</b></h4>
+                <h4><b>@Localizer["ConnectBeachGuideCol"]</b></h4>
                 <div class="social-links">
                     <a href="#">
                         <img src="\Images\facebooklogo.svg" alt="" width="30" height="30" style="order: 0;border-radius: 8px;">

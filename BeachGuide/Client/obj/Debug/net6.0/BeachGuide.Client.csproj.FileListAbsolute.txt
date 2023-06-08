@@ -862,6 +862,8 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\M
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
@@ -1044,6 +1046,7 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\M
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Principal.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
@@ -1062,7 +1065,6 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Transactions.Local.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm.gz
@@ -1114,6 +1116,7 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\BeachGuide.Client.pdb.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
@@ -1143,10 +1146,8 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Thread.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Writer.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.Linq.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
@@ -1166,6 +1167,7 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.14.4zgvglj3vr.js.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
@@ -1173,6 +1175,7 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Globalization.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
@@ -1186,6 +1189,7 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.SecureString.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Linq.dll.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Requests.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Threading.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Reader.dll.gz
@@ -1221,7 +1225,7 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\S
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Text.Encoding.dll.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\icudt.dat.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
@@ -1254,6 +1258,8 @@ D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\For Backup\BeachGuide\BeachGuide\Client\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
@@ -1454,14 +1460,16 @@ D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\p+jhzuGi.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\Qs3vESle.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\OFUi0bXw.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\g7N+4UCg.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\x9rDL+K+.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\2ET51tkS.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\s3u0v3lR.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\u5IicHNt.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\5SEp9trS.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\qzY+vP60.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\rQF1YAgK.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\BuOhQVnB.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\nwVmMMM+.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\AWGq2NG0.gz
-D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\NlV1zxPy.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\iJSN+lYb.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\x7SE5Jqh.gz
+D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\TH56fK6B.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\Olb7vGQ+.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\Am4PzNfv.gz
 D:\For Backup\BeachGuide\BeachGuide\Client\obj\Debug\net6.0\build-gz\JmZ69TD9.gz

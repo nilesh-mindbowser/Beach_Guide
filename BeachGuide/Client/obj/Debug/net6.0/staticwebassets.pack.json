@@ -121,6 +121,26 @@
       "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit3.svg"
     },
     {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit4.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit4.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit5.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit5.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit6.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit6.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit7.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit7.svg"
+    },
+    {
+      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit8.svg",
+      "PackagePath": "staticwebassets\\Images\\RentalUnits\\RentalUnit8.svg"
+    },
+    {
       "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Searchlogo2.svg",
       "PackagePath": "staticwebassets\\Images\\RentalUnits\\Searchlogo2.svg"
     },
@@ -299,10 +319,6 @@
     {
       "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Js\\RentalUnit.js",
       "PackagePath": "staticwebassets\\Js\\RentalUnit.js"
-    },
-    {
-      "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Resource.resx",
-      "PackagePath": "staticwebassets\\Resource.resx"
     },
     {
       "Id": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\css\\app.css",

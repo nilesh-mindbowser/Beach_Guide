@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I4ACblwSiN6iLEPQI7dbUq8CM/coLHuqesxw4izX88Y=",
+  "Hash": "jEztJZIExuARR66JO6AQ4OpTVmOPfVsVqn9caLAiarA=",
   "Source": "BeachGuide.Server",
   "BasePath": "_content/BeachGuide.Server",
   "Mode": "Default",
@@ -468,7 +468,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.4.23259.5\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -539,6 +539,40 @@
       "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\8.0.0-preview.4.23260.4\\lib\\netstandard2.0\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.localization\\8.0.0-preview.4.23260.4\\lib\\netstandard2.0\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
@@ -553,7 +587,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.4.23259.5\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -587,7 +621,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.4.23259.5\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -604,7 +638,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\prajakta.chavan\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.4.23259.5\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -3633,6 +3667,23 @@
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Handles.dll"
     },
     {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\2ET51tkS.gz",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\2qoh8mK2.gz",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
@@ -3937,23 +3988,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll"
-    },
-    {
-      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\AWGq2NG0.gz",
-      "SourceId": "BeachGuide.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\aYfvethM.gz",
@@ -4823,6 +4857,23 @@
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.dll"
     },
     {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\iJSN+lYb.gz",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\iK9v3MjO.gz",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
@@ -5316,23 +5367,6 @@
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.dll"
     },
     {
-      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\NlV1zxPy.gz",
-      "SourceId": "BeachGuide.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
-    },
-    {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\NoASbzio.gz",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
@@ -5365,23 +5399,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Serialization.dll"
-    },
-    {
-      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\nwVmMMM+.gz",
-      "SourceId": "BeachGuide.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\OFUi0bXw.gz",
@@ -5707,6 +5724,23 @@
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.dll"
     },
     {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\qzY+vP60.gz",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\R5X6skB3.gz",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
@@ -5824,6 +5858,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.dll"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\rQF1YAgK.gz",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\RVMh7+ur.gz",
@@ -6045,6 +6096,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.dll"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\TH56fK6B.gz",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\tHf5a1Cz.gz",
@@ -6642,21 +6710,21 @@
       "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Text.Encoding.dll"
     },
     {
-      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\x9rDL+K+.gz",
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\x7SE5Jqh.gz",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
       "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "RelatedAsset": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\obj\\Debug\\net6.0\\build-gz\\XQWsto10.gz",
@@ -8104,6 +8172,91 @@
       "OriginalItemSpec": "wwwroot\\Images\\RentalUnits\\RentalUnit3.svg"
     },
     {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit4.svg",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/RentalUnits/RentalUnit4.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RentalUnits\\RentalUnit4.svg"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit5.svg",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/RentalUnits/RentalUnit5.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RentalUnits\\RentalUnit5.svg"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit6.svg",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/RentalUnits/RentalUnit6.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RentalUnits\\RentalUnit6.svg"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit7.svg",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/RentalUnits/RentalUnit7.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RentalUnits\\RentalUnit7.svg"
+    },
+    {
+      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\RentalUnit8.svg",
+      "SourceId": "BeachGuide.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Images/RentalUnits/RentalUnit8.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\RentalUnits\\RentalUnit8.svg"
+    },
+    {
       "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Images\\RentalUnits\\Searchlogo2.svg",
       "SourceId": "BeachGuide.Client",
       "SourceType": "Project",
@@ -8374,23 +8527,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Js\\RentalUnit.js"
-    },
-    {
-      "Identity": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\Resource.resx",
-      "SourceId": "BeachGuide.Client",
-      "SourceType": "Project",
-      "ContentRoot": "D:\\For Backup\\BeachGuide\\BeachGuide\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "Resource.resx",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Resource.resx"
     }
   ]
 }

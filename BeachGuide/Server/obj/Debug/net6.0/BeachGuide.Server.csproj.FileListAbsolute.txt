@@ -74,7 +74,12 @@ D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.AspNetCore
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.Localization.dll
+D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.Localization.Abstractions.dll
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
 D:\For Backup\BeachGuide\BeachGuide\Server\bin\Debug\net6.0\System.IO.Pipelines.dll

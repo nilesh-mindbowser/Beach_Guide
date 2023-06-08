@@ -1,7 +1,8 @@
 ﻿@page "/homePageRes" 
-
 @inject IJSRuntime jsRuntime
 @inject NavigationManager NavigationManager
+@inject IStringLocalizer<Resource> Localizer
+
 
 <style>
 
@@ -419,23 +420,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-
-       @*<div class="d-flex @(isNavbarOpen ? "show" : "")">
-            <div class="navbar-brand-btn @(GetNavLinkActive("home")) ">
-                <a class="btn-prop" href="">Select a beach</a>
-            </div>
-            <div class="navbar-brand-btn @(GetNavLinkActive("home"))">
-                <a class="btn-prop">Beach a Buzz</a>
-            </div>
-            <div class="navbar-brand-btn @(GetNavLinkActive("home"))">
-                <a class="btn-prop">Wishlist</a>
-            </div>
-        </div>*@
-
         <div class="collapse navbar-collapse @(isNavbarOpen ? "show" : "")">
             <ul class="navbar-nav">
                 <li class="navbar-brand-btn @(GetNavLinkActive(""))">
-                    <a class="btn-prop" href="">Select a beach</a>
+                    <a class="btn-prop" href="">@Localizer["SelectBeachname"]</a>
                 </li>
                 <li class="navbar-brand-btn @(GetNavLinkActive(""))">
                     <a class="btn-prop" href="">Beach a Buzz</a>
@@ -515,7 +503,7 @@
         <div class="row-frame1">
         
             <div class="card">
-                <img src="\Images\card1.svg" alt="Image">
+                <img src="@Localizer["RowCard1"]" alt="Image">
                 <div>
                     <h6 class="img-heading-h6">WATERSCAPE RESORT</h6>
                     <p class="img-heading-p">Lorem ipsum dolor sit amet consectetur. Nunc phasellus sed elit suspendisse leo consequat eu dignissim. </p>
@@ -607,6 +595,7 @@
 
 
 @code {
+
     //private int currentPage = 1;
     //private int totalItems = 20; // Total number of items to paginate
 

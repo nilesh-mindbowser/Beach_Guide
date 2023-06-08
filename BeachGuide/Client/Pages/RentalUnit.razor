@@ -1,6 +1,7 @@
 ﻿@page "/rental"
 
 @inject NavigationManager NavigationManager
+@inject IStringLocalizer<Resource> Localizer
 
 <nav class="navbar navbar-expand-lg navbar navbar-light bg-light">
     <div class="container-fluid">
@@ -22,28 +23,16 @@
         <div class="collapse navbar-collapse @(isNavbarOpen ? "show" : "")">
             <ul class="navbar-nav">
                 <li class="navbar-brand-btn @(GetNavLinkActive(""))">
-                    <a class="btn-prop" href="">Select a beach</a>
+                    <a class="btn-prop" href="">@Localizer["SelectBeachname"]</a>
                 </li>
                 <li class="navbar-brand-btn @(GetNavLinkActive(""))">
-                    <a class="btn-prop" href="">Beach a Buzz</a>
+                    <a class="btn-prop" href="">@Localizer["BeachABuzzName"]</a>
                 </li>
                 <li class="navbar-brand-btn @(GetNavLinkActive(""))">
-                    <a class="btn-prop" href="">Wishlist</a>
+                    <a class="btn-prop" href="">@Localizer["WishlistName"]</a>
                 </li>
             </ul>
-       </div>
-
-     @*   <div class="d-flex">
-            <div class="navbar-brand-btn">
-                <a class="btn-prop" href="">Select a beach</a>
-            </div>
-            <div class="navbar-brand-btn ">
-                <a class="btn-prop" href="">Beach a Buzz</a>
-            </div>
-            <div class="navbar-brand-btn">
-                <a class="btn-prop" href="">Wishlist</a>
-            </div>
-        </div>*@
+        </div>
     </div>
 </nav>
 
@@ -51,47 +40,47 @@
 <div class="beach-guide">
     <div class="beach-guide-box">
         <div class="beach-guide-heading">
-            <h3 class="gulf-Shores-title">Gulf Shores, Alabama</h3>
+            <h3 class="gulf-Shores-title">@Localizer["GulfAlabamaHeading"]</h3>
         </div>
         <div class="beach-guide-options">
             <div class="beach-guide-btn1">
                 <div class="area">
-                    <label class="beach-guide-label">Area</label>
+                    <label class="beach-guide-label">@Localizer["Arealabel"]</label>
                     <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn2">
                 <div class="area">
-                    <label class="beach-guide-label">Property</label>
+                    <label class="beach-guide-label">@Localizer["PropertyLabel"]</label>
                     <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
-                    <label class="beach-guide-label">Rental Unit</label>
+                    <label class="beach-guide-label">@Localizer["RentalunitLabel"]</label>
                     <label class="beach-guide-label2">Lorem Ipsum Dolar</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
-                    <label class="beach-guide-label">Check In</label>
+                    <label class="beach-guide-label">@Localizer["Checkinlabel"]</label>
                     <label class="beach-guide-label2">02/06/2023</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
-                    <label class="beach-guide-label">Check Out</label>
+                    <label class="beach-guide-label">@Localizer["CheckoutLabel"]</label>
                     <label class="beach-guide-label2">20/06/2023</label>
                 </div>
             </div>
 
             <div class="beach-guide-btn1">
                 <div class="area">
-                    <label class="beach-guide-label">Guest</label>
+                    <label class="beach-guide-label">@Localizer["GuestLabel"]</label>
                     <label class="beach-guide-label2">2 adults,2 childrens</label>
                 </div>
             </div>
@@ -111,35 +100,35 @@
 <div class="navslides-box">
     <div class="navslides-box1">
         <div class="properties-nav">
-            <a class="btn-prop" href="">Properties</a>
+            <a class="btn-prop" href="">@Localizer["Propertiesinfo"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" href="">Rental Units</a>
+            <a class="btn-prop" href="">@Localizer["Rentalunitinfo"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" href="">Informations</a>
+            <a class="btn-prop" href="">@Localizer["InformationNavslide"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" href="">Restaurants</a>
+            <a class="btn-prop" href="">@Localizer["RestaurantsInfo"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" href="">Golf</a>
+            <a class="btn-prop" href="">@Localizer["Golfinfo"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" href="">Fishing</a>
+            <a class="btn-prop" href="">@Localizer["Fishinginfo"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop" href="">Events</a>
+            <a class="btn-prop" href="">@Localizer["Eventsinfo"]</a>
         </div>
         <div class="properties-nav">
-            <a class="btn-prop-8" href="">Other Things To Do</a>
+            <a class="btn-prop-8" href="">@Localizer["OtherThingstodoinfo"]</a>
         </div>
     </div>
 </div>
 
 <div class="shores-heading">
     <div class="shores-link">
-        <a href="" style="color:#459DC9 ">Home&gt;</a>&nbsp;Gulf Shores Alabama Vacation Properties
+        <a href="" style="color:#459DC9 ">Home&gt;</a>&nbsp;@Localizer["VacationpropHeading"]
     </div>
 </div>
 
@@ -147,9 +136,9 @@
 <div class="gulf-hedding">
     <div class="gulf-heading2">
         <div class="gulf-heading3">
-            <h1 class="gulf-title">Gulf Shores, Alabama</h1>
+            <h1 class="gulf-title">@Localizer["Albamaheading"]</h1>
             <div class="moreInfo">
-                <a class="gulf-inform">More Information</a>
+                <a class="gulf-inform">@Localizer["MoreInfoDetails"]</a>
             </div>
         </div>
     </div>
@@ -157,12 +146,12 @@
 
 <div class="sort-box">
     <div class="sort-option-box">
-        <label class="flex: none;order: 0;flex-grow: 0">Sort By:</label>
+        <label class="flex: none;order: 0;flex-grow: 0">@Localizer["SorByButton"]</label>
         <select class="option-box">
-            <option value="">Property Name(A-Z)</option>
+            <option value="">@Localizer["sortingBox"]</option>
         </select>
         <div class="pagination-box">
-            <label style="flex: none;order: 0;flex-grow: 0 ;">Search has returned 100 results.:</label>
+            <label style="flex: none;order: 0;flex-grow: 0 ;">@Localizer["pagiantionBox"]</label>
         </div>
     </div>
 </div>
@@ -174,7 +163,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -193,36 +182,36 @@
                 </div>
           
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                            <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -233,7 +222,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -252,36 +241,36 @@
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -292,7 +281,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -311,36 +300,36 @@
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -352,7 +341,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -367,41 +356,41 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\RentalUnits\RentalUnit1.svg" alt="Image" class="waterspace-img">
+                    <img src="\Images\RentalUnits\RentalUnit4.svg" alt="Image" class="waterspace-img">
                 </div>
 
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                        <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -412,7 +401,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -427,40 +416,40 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\RentalUnits\RentalUnit1.svg" alt="Image" class="waterspace-img">
+                    <img src="\Images\RentalUnits\RentalUnit5.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -471,7 +460,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -486,40 +475,40 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\RentalUnits\RentalUnit1.svg" alt="Image" class="waterspace-img">
+                    <img src="\Images\RentalUnits\RentalUnit6.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -530,7 +519,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -545,40 +534,40 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\RentalUnits\RentalUnit1.svg" alt="Image" class="waterspace-img">
+                    <img src="\Images\RentalUnits\RentalUnit7.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -589,7 +578,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -608,36 +597,36 @@
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                             <img src="\Images\RentalUnits\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
@@ -647,7 +636,7 @@
             <div class="card">
                 <div>
                     <div class="card-heding">
-                        <h4>Watersapce B618</h4>
+                    <h4>@Localizer["WaterspaceHeading"]</h4>
                     </div>
                 <div class="card-img">
                     <div class="line-btn">
@@ -662,40 +651,40 @@
                             </a>
                         </div>
                     </div>
-                    <img src="\Images\RentalUnits\RentalUnit1.svg" alt="Image" class="waterspace-img">
+                    <img src="\Images\RentalUnits\RentalUnit8.svg" alt="Image" class="waterspace-img">
                 </div>
 
                     <div class="card-people-details">
-                        <label class="card-details-text">5 People</label>
-                        <label class="card-details-text3">3 Bedroom</label>
-                        <label class="card-details-text2">2 Bathrooms</label>
+                    <label class="card-details-text">@Localizer["peoplecount"]</label>
+                    <label class="card-details-text3">@Localizer["Bedroomcount"]</label>
+                    <label class="card-details-text2">@Localizer["Bathroominfo"]</label>
                     </div>
                     <div class="card-text">
-                        <p>Destin’s beautiful holiday isle is the setting for aegean, a...</p>
+                    <p>@Localizer["cardtextdetails"]</p>
                     </div>
                     <div class="card-frame">
                         <div class="card-frame1" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                                 <img src="\Images\Vector.svg"><br />
-                                <label class="icon-label">Gym</label>
+                            <label class="icon-label">@Localizer["GymInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame2" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                                 <img src="\Images\Vector1.svg"><br />
-                                <label class="icon-label">Pool</label>
+                            <label class="icon-label">@Localizer["PoolInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame3" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                                 <img src="\Images\Vector2.svg"><br />
-                                <label class="icon-label" style="width:44px;">Dinner</label>
+                            <label class="icon-label" style="width:44px;">@Localizer["DinnerInfo"]</label>
                             </a>
                         </div>
                         <div class="card-frame4" style="border-right: 0.5px solid #4199C7;">
                             <a href="">
                                 <img src="\Images\Vector3.svg"><br />
-                                <label class="icon-label">Golf</label>
+                            <label class="icon-label">@Localizer["GolfDetails"]</label>
                             </a>
                         </div>
                     </div>
