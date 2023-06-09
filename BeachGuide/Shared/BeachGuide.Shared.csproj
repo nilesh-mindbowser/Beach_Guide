@@ -21,11 +21,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>ResourceFooter.resx</DependentUpon>
     </Compile>
-    <Compile Update="Resources\ResourceRentalUnit.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>ResourceRentalUnit.resx</DependentUpon>
-    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -36,10 +31,6 @@
     <EmbeddedResource Update="Resources\ResourceFooter.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourceFooter.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Resources\ResourceRentalUnit.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ResourceRentalUnit.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
